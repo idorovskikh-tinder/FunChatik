@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56BE69E90DBDD652F4D089B /* Pods_FunChatikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF408A5A75B15800A9A7E45 /* Pods_FunChatikUITests.framework */; };
+		DE980494F0797585D985546F /* Pods_FunChatik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAA492BDAE6AF8BDCB2288A /* Pods_FunChatik.framework */; };
 		E108E29520EC5B65000ED27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E29420EC5B65000ED27F /* AppDelegate.swift */; };
-		E108E29720EC5B65000ED27F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E29620EC5B65000ED27F /* ViewController.swift */; };
 		E108E29A20EC5B65000ED27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108E29820EC5B65000ED27F /* Main.storyboard */; };
 		E108E29C20EC5B65000ED27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E108E29B20EC5B65000ED27F /* Assets.xcassets */; };
 		E108E29F20EC5B65000ED27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108E29D20EC5B65000ED27F /* LaunchScreen.storyboard */; };
 		E108E2AA20EC5B66000ED27F /* FunChatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */; };
+		E10A233C20EC60A100C1AA72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */; };
+		E10A233D20EC60A100C1AA72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */; };
+		E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234120EC632000C1AA72 /* ChatVC.swift */; };
+		E10A234320EC632000C1AA72 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234120EC632000C1AA72 /* ChatVC.swift */; };
+		E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234420EC633300C1AA72 /* ChannelVC.swift */; };
+		E10A234620EC633300C1AA72 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234420EC633300C1AA72 /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182808E2B03A26F60945C251 /* Pods-FunChatikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAA492BDAE6AF8BDCB2288A /* Pods_FunChatik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChatik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669BB67C7DB43B03BC29CB05 /* Pods-FunChatik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF408A5A75B15800A9A7E45 /* Pods_FunChatikUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChatikUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108E29120EC5B65000ED27F /* FunChatik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChatik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108E29420EC5B65000ED27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E108E29620EC5B65000ED27F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E108E29920EC5B65000ED27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E108E29B20EC5B65000ED27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E108E29E20EC5B65000ED27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,14 @@
 		E108E2A520EC5B66000ED27F /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChatikUITests.swift; sourceTree = "<group>"; };
 		E108E2AB20EC5B66000ED27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10A233820EC60A100C1AA72 /* FunChatik-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunChatik-Bridging-Header.h"; sourceTree = "<group>"; };
+		E10A233920EC60A100C1AA72 /* FunChatikUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunChatikUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
+		E10A233B20EC60A100C1AA72 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
+		E10A234120EC632000C1AA72 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		E10A234420EC633300C1AA72 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
+		FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE980494F0797585D985546F /* Pods_FunChatik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56BE69E90DBDD652F4D089B /* Pods_FunChatikUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		942710EC6285CF3B8C60CA4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669BB67C7DB43B03BC29CB05 /* Pods-FunChatik.debug.xcconfig */,
+				E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */,
+				182808E2B03A26F60945C251 /* Pods-FunChatikUITests.debug.xcconfig */,
+				FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E108E28820EC5B65000ED27F = {
 			isa = PBXGroup;
 			children = (
 				E108E29320EC5B65000ED27F /* FunChatik */,
 				E108E2A820EC5B66000ED27F /* FunChatikUITests */,
 				E108E29220EC5B65000ED27F /* Products */,
+				942710EC6285CF3B8C60CA4F /* Pods */,
+				EAE2131E8ACBCF000BAEFE85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +110,11 @@
 		E108E29320EC5B65000ED27F /* FunChatik */ = {
 			isa = PBXGroup;
 			children = (
+				E10A234020EC630000C1AA72 /* Model */,
+				E10A233F20EC62FA00C1AA72 /* View */,
+				E10A233E20EC62EF00C1AA72 /* Controller */,
+				E10A233720EC602C00C1AA72 /* Supporting Files */,
 				E108E29420EC5B65000ED27F /* AppDelegate.swift */,
-				E108E29620EC5B65000ED27F /* ViewController.swift */,
 				E108E29820EC5B65000ED27F /* Main.storyboard */,
 				E108E29B20EC5B65000ED27F /* Assets.xcassets */,
 				E108E29D20EC5B65000ED27F /* LaunchScreen.storyboard */,
@@ -96,6 +132,49 @@
 			path = FunChatikUITests;
 			sourceTree = "<group>";
 		};
+		E10A233720EC602C00C1AA72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10A233B20EC60A100C1AA72 /* SWRevealViewController.h */,
+				E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */,
+				E10A233820EC60A100C1AA72 /* FunChatik-Bridging-Header.h */,
+				E10A233920EC60A100C1AA72 /* FunChatikUITests-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E10A233E20EC62EF00C1AA72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E10A234120EC632000C1AA72 /* ChatVC.swift */,
+				E10A234420EC633300C1AA72 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E10A233F20EC62FA00C1AA72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E10A234020EC630000C1AA72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAE2131E8ACBCF000BAEFE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA492BDAE6AF8BDCB2288A /* Pods_FunChatik.framework */,
+				7FF408A5A75B15800A9A7E45 /* Pods_FunChatikUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E108E2AE20EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatik" */;
 			buildPhases = (
+				3B7A2750BE6097457B28C15C /* [CP] Check Pods Manifest.lock */,
 				E108E28D20EC5B65000ED27F /* Sources */,
 				E108E28E20EC5B65000ED27F /* Frameworks */,
 				E108E28F20EC5B65000ED27F /* Resources */,
+				6442F99B69AEF7EC50F7E581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E108E2B120EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatikUITests" */;
 			buildPhases = (
+				0D7103BDCFB64A1AD8D33AFC /* [CP] Check Pods Manifest.lock */,
 				E108E2A120EC5B66000ED27F /* Sources */,
 				E108E2A220EC5B66000ED27F /* Frameworks */,
 				E108E2A320EC5B66000ED27F /* Resources */,
+				4C782116B29058EECE0204DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,9 +229,11 @@
 				TargetAttributes = {
 					E108E29020EC5B65000ED27F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					E108E2A420EC5B66000ED27F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 						TestTargetID = E108E29020EC5B65000ED27F;
 					};
 				};
@@ -192,13 +277,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D7103BDCFB64A1AD8D33AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunChatikUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7A2750BE6097457B28C15C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunChatik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C782116B29058EECE0204DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6442F99B69AEF7EC50F7E581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E108E28D20EC5B65000ED27F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E108E29720EC5B65000ED27F /* ViewController.swift in Sources */,
+				E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */,
+				E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */,
 				E108E29520EC5B65000ED27F /* AppDelegate.swift in Sources */,
+				E10A233C20EC60A100C1AA72 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +380,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10A234620EC633300C1AA72 /* ChannelVC.swift in Sources */,
+				E10A234320EC632000C1AA72 /* ChatVC.swift in Sources */,
 				E108E2AA20EC5B66000ED27F /* FunChatikUITests.swift in Sources */,
+				E10A233D20EC60A100C1AA72 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +533,10 @@
 		};
 		E108E2AF20EC5B66000ED27F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669BB67C7DB43B03BC29CB05 /* Pods-FunChatik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +545,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatik-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,8 +554,10 @@
 		};
 		E108E2B020EC5B66000ED27F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatik-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,8 +574,10 @@
 		};
 		E108E2B220EC5B66000ED27F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182808E2B03A26F60945C251 /* Pods-FunChatikUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatikUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,6 +587,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatikUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatikUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunChatik;
@@ -409,8 +597,10 @@
 		};
 		E108E2B320EC5B66000ED27F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatikUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,6 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatikUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatikUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunChatik;
