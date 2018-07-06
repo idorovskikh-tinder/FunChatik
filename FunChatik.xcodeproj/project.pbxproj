@@ -23,6 +23,7 @@
 		E1BE320820EEDB0200BC8CCB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320720EEDB0200BC8CCB /* GradientView.swift */; };
 		E1BE320B20EEF8AC00BC8CCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320A20EEF8AC00BC8CCB /* Constants.swift */; };
 		E1BE320D20EF40C500BC8CCB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320C20EF40C500BC8CCB /* LoginVC.swift */; };
+		E1BE320F20EF47E200BC8CCB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		E1BE320720EEDB0200BC8CCB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E1BE320A20EEF8AC00BC8CCB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E1BE320C20EF40C500BC8CCB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
 		FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 				E10A234120EC632000C1AA72 /* ChatVC.swift */,
 				E10A234420EC633300C1AA72 /* ChannelVC.swift */,
 				E1BE320C20EF40C500BC8CCB /* LoginVC.swift */,
+				E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			files = (
 				E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */,
 				E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */,
+				E1BE320F20EF47E200BC8CCB /* CreateAccountVC.swift in Sources */,
 				E1BE320D20EF40C500BC8CCB /* LoginVC.swift in Sources */,
 				E1BE320820EEDB0200BC8CCB /* GradientView.swift in Sources */,
 				E108E29520EC5B65000ED27F /* AppDelegate.swift in Sources */,

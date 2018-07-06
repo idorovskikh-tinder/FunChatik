@@ -13,6 +13,8 @@ class ChannelVC: UIViewController {
     //Outlets
     
     @IBOutlet weak var loginButton: UIButton!
+    //give us possible to come back to the channel screen, when closeButtom pressed in Create account screen
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
     
     override func viewDidLoad() {
         super.viewDidLoad()
