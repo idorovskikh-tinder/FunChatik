@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 
+//Auth to login page
 class AuthService {
     
     static let instance = AuthService()

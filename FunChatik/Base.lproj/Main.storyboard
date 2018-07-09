@@ -215,7 +215,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSh-TF-81s">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSh-TF-81s" customClass="RoundedButton" customModule="FunChatik" customModuleProvider="target">
                                 <rect key="frame" x="62" y="286" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginButtonLoginScreen"/>
@@ -227,6 +227,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCK-RY-3Sm">
                                 <rect key="frame" x="88" y="336" width="199" height="26"/>
@@ -291,7 +296,7 @@
                                 <color key="textColor" red="0.77386669119999996" green="0.084958557470000001" blue="0.21623782450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-Cg-Nps">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-Cg-Nps" customClass="RoundedButton" customModule="FunChatik" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="597" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginButtonLoginScreen"/>
@@ -303,6 +308,14 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="94l-fH-Hnl" eventType="touchUpInside" id="o4b-8w-1CK"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="QOr-6Y-OkB">
                                 <rect key="frame" x="137.5" y="296.5" width="100" height="100"/>
@@ -322,6 +335,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountButtonPressed:" destination="xNj-mF-gYf" eventType="touchUpInside" id="34p-Me-syg"/>
+                                    <action selector="pickBGColorPressed:" destination="94l-fH-Hnl" eventType="touchUpInside" id="fwa-az-jCQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L64-GA-X32">
@@ -336,6 +350,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountButtonPressed:" destination="xNj-mF-gYf" eventType="touchUpInside" id="AMD-RI-G73"/>
+                                    <action selector="pickAvatarPressed:" destination="94l-fH-Hnl" eventType="touchUpInside" id="MO3-PF-IFQ"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="73h-29-QJy">
@@ -412,6 +427,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="LG0-lk-rKy" id="Cax-Ic-SNG"/>
+                        <outlet property="passTxt" destination="8v6-6r-cC6" id="sSY-Nx-Hgu"/>
+                        <outlet property="userImg" destination="QOr-6Y-OkB" id="rRn-sW-5mV"/>
+                        <outlet property="usernameTxt" destination="1Vf-zH-G8n" id="iGP-Rw-mL5"/>
                         <segue destination="noJ-Ec-Y8Q" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="x0e-l2-jT4"/>
                     </connections>
                 </viewController>
