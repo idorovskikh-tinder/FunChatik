@@ -456,6 +456,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DW-3Z-d9n">
                                         <rect key="frame" x="12" y="47" width="24" height="18"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="menuBurgerButton"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="94a-Ww-Oj7"/>
                                             <constraint firstAttribute="width" constant="24" id="IJ7-Ad-r0n"/>
