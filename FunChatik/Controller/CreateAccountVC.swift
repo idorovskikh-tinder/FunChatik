@@ -16,12 +16,18 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
     
+    // Variables
+    var avatarName = "profileDefault"
+    var avatarColor = "[0.5, 0.5, 0.5, 1]"//red,green, blue (light gray color)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
+    //pressing this button we send data through three functions in AuthService class (loginUser, createUser, addUser)
     @IBAction func createAccountPressed(_ sender: Any) {
+        guard let name = usernameTxt.text , usernameTxt.text != "" else { return }
         guard let email = emailTxt.text , emailTxt.text != "" else { return }
         guard let pass = passTxt.text , passTxt.text != "" else { return }
         
@@ -29,7 +35,12 @@ class CreateAccountVC: UIViewController {
             if success {
                 AuthService.instance.loginUser(email: email, password: pass, completion: { (success) in
                     if success {
-                        print("logged in user!", AuthService.instance.authToken)
+                        AuthService.instance.createUser(name: name, email: email, avatarName: self.avatarName, avatarColor: self.avatarColor, completion: { (success) in
+                            if success {
+                                print(UserDataService.instance.name, UserDataService.instance.avatarName)
+                                self.performSegue(withIdentifier: UNWIND, sender: nil)
+                            }
+                        })
                     }
                 })
             }
