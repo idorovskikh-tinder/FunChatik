@@ -58,7 +58,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ekV-W7-5Ul">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ekV-W7-5Ul" customClass="CircleImage" customModule="FunChatik" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <accessibility key="accessibilityConfiguration" identifier="profleIcon"/>
                                 <constraints>
@@ -131,6 +131,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="wsf-Ex-lR1" id="TWP-kN-9Ik"/>
+                        <outlet property="userImg" destination="ekV-W7-5Ul" id="oH8-zW-JzJ"/>
                         <segue destination="xNj-mF-gYf" kind="show" identifier="toLogin" id="mV4-zs-Z1v"/>
                     </connections>
                 </viewController>
@@ -317,7 +318,7 @@
                                     <action selector="createAccountPressed:" destination="94l-fH-Hnl" eventType="touchUpInside" id="o4b-8w-1CK"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="QOr-6Y-OkB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="QOr-6Y-OkB" customClass="CircleImage" customModule="FunChatik" customModuleProvider="target">
                                 <rect key="frame" x="137.5" y="296.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="DVx-m2-pF9"/>
@@ -406,15 +407,21 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jKr-4C-0Ye">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="iOq-Cg-Nps" firstAttribute="centerX" secondItem="pFL-FJ-8M6" secondAttribute="centerX" id="20N-mO-wnY"/>
                             <constraint firstItem="HA5-mS-Qd1" firstAttribute="centerX" secondItem="pFL-FJ-8M6" secondAttribute="centerX" id="2sn-iu-3vG"/>
                             <constraint firstItem="73h-29-QJy" firstAttribute="top" secondItem="KHw-37-M0Y" secondAttribute="bottom" constant="40" id="IhZ-GV-h0r"/>
+                            <constraint firstItem="jKr-4C-0Ye" firstAttribute="centerY" secondItem="pFL-FJ-8M6" secondAttribute="centerY" constant="-100" id="Kju-aS-c3B"/>
                             <constraint firstItem="L64-GA-X32" firstAttribute="width" secondItem="QOr-6Y-OkB" secondAttribute="width" id="RhM-BP-flD"/>
                             <constraint firstItem="L64-GA-X32" firstAttribute="top" secondItem="QOr-6Y-OkB" secondAttribute="top" id="W0F-Y2-VrJ"/>
                             <constraint firstItem="L64-GA-X32" firstAttribute="centerX" secondItem="pFL-FJ-8M6" secondAttribute="centerX" id="XQT-8d-lJu"/>
+                            <constraint firstItem="jKr-4C-0Ye" firstAttribute="centerX" secondItem="pFL-FJ-8M6" secondAttribute="centerX" id="ead-Cy-jIX"/>
                             <constraint firstItem="73h-29-QJy" firstAttribute="centerX" secondItem="pFL-FJ-8M6" secondAttribute="centerX" id="jD0-Hz-YIG"/>
                             <constraint firstItem="QOr-6Y-OkB" firstAttribute="top" secondItem="73h-29-QJy" secondAttribute="bottom" constant="40" id="kyd-0P-lrC"/>
                             <constraint firstItem="KHw-37-M0Y" firstAttribute="top" secondItem="UOl-lC-8Sz" secondAttribute="bottom" constant="40" id="nYI-zI-2vg"/>
@@ -429,6 +436,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="LG0-lk-rKy" id="Cax-Ic-SNG"/>
                         <outlet property="passTxt" destination="8v6-6r-cC6" id="sSY-Nx-Hgu"/>
+                        <outlet property="spinner" destination="jKr-4C-0Ye" id="76H-Gq-ELT"/>
                         <outlet property="userImg" destination="QOr-6Y-OkB" id="rRn-sW-5mV"/>
                         <outlet property="usernameTxt" destination="1Vf-zH-G8n" id="iGP-Rw-mL5"/>
                         <segue destination="noJ-Ec-Y8Q" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="x0e-l2-jT4"/>
