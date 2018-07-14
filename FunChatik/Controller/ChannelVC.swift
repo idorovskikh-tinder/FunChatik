@@ -24,9 +24,16 @@ class ChannelVC: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelVC.userDataDidChange(_:)), name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
     }
 
-
+    //check if login already
     @IBAction func loginButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        if AuthService.instance.isLoggedIn {
+            //show profile page
+            let profile = ProfileVC()
+            profile.modalPresentationStyle = .custom
+            present(profile, animated: true, completion: nil)
+        } else {
+            performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        }
     }
     //will be coled evary time when received notification
     @objc func userDataDidChange(_ notif: Notification) {
