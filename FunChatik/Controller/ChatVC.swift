@@ -9,7 +9,7 @@
 import UIKit
 
 class ChatVC: UIViewController {
-
+    
     //Outlets
     @IBOutlet weak var menuBtn: UIButton!
     
@@ -22,5 +22,12 @@ class ChatVC: UIViewController {
         //make able to drag screen with menuButton left-right
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        
+        //check if we already logged in and set up all data to the screen
+        if AuthService.instance.isLoggedIn {
+            AuthService.instance.findUserByEmail(completion: { (success) in
+                NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+            })
+        }
     }
 }
