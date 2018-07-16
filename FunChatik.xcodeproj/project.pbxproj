@@ -32,6 +32,8 @@
 		E1D6DEB020F956400080607B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAF20F956400080607B /* CircleImage.swift */; };
 		E1D6DEB320F976A30080607B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEB120F976A30080607B /* ProfileVC.swift */; };
 		E1D6DEB420F976A30080607B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D6DEB220F976A30080607B /* ProfileVC.xib */; };
+		E1DB54E820FC5CF600A54CD2 /* MessegeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */; };
+		E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E920FC5D6B00A54CD2 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		E1D6DEAF20F956400080607B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E1D6DEB120F976A30080607B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		E1D6DEB220F976A30080607B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegeService.swift; sourceTree = "<group>"; };
+		E1DB54E920FC5D6B00A54CD2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
 		FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +200,7 @@
 		E10A234020EC630000C1AA72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1DB54E920FC5D6B00A54CD2 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			children = (
 				E126CBC620F332B8006F7652 /* AuthService.swift */,
 				E1D6DEA720F442550080607B /* UserDataService.swift */,
+				E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -434,11 +440,13 @@
 				E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */,
 				E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */,
 				E126CBC920F33E36006F7652 /* RoundedButton.swift in Sources */,
+				E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */,
 				E1D6DEB020F956400080607B /* CircleImage.swift in Sources */,
 				E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */,
 				E1D6DEA820F442550080607B /* UserDataService.swift in Sources */,
 				E1BE320F20EF47E200BC8CCB /* CreateAccountVC.swift in Sources */,
 				E126CBC720F332B8006F7652 /* AuthService.swift in Sources */,
+				E1DB54E820FC5CF600A54CD2 /* MessegeService.swift in Sources */,
 				E1BE320D20EF40C500BC8CCB /* LoginVC.swift in Sources */,
 				E1BE320820EEDB0200BC8CCB /* GradientView.swift in Sources */,
 				E1D6DEAE20F885120080607B /* AvatarCell.swift in Sources */,
