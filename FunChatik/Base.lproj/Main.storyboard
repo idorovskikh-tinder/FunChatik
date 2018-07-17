@@ -62,6 +62,9 @@
                                 <rect key="frame" x="281" y="84" width="22" height="22"/>
                                 <accessibility key="accessibilityConfiguration" identifier="addChannelButton"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelPressed:" destination="Ow0-oB-sKE" eventType="touchUpInside" id="VyR-NE-n0W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsf-Ex-lR1">
                                 <rect key="frame" x="111" y="593" width="46" height="33"/>
