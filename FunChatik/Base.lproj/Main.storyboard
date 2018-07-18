@@ -610,6 +610,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="channelNameLbl" destination="ahf-Pe-04h" id="ML7-JP-14e"/>
                         <outlet property="menuBtn" destination="1DW-3Z-d9n" id="ZTc-ge-rj1"/>
                     </connections>
                 </viewController>

@@ -63,6 +63,7 @@ class UserDataService {
         return newUIColor
     }
     
+    //colles when user is logginf out
     func logoutUser() {
         id = ""
         avatarName = ""
@@ -72,5 +73,6 @@ class UserDataService {
         AuthService.instance.isLoggedIn = false
         AuthService.instance.userEmail = ""
         AuthService.instance.authToken = ""
+        MessageService.instance.clearChannels()
     }
 }

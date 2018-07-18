@@ -16,6 +16,7 @@ class MessageService {
     static let instance = MessageService()
     
     var channels = [Channel]()
+    var selectedChannel : Channel?
     
     //retreaves all channels from api 
     func findAllChannel(completion: @escaping CompletionHandler) {
@@ -32,7 +33,8 @@ class MessageService {
                             let channel = Channel(channelTitle: name, channelDescription: channelDescription, id: id)
                             self.channels.append(channel)
                         }
-                        //print(self.channels[0].channelTitle)
+                        //notification, that user is alreadu login and we need to find his channels
+                        NotificationCenter.default.post(name: NOTIF_CHANNELS_LOADED, object: nil)
                         completion(true)
                     }
                 }
@@ -44,6 +46,11 @@ class MessageService {
             }
         }
         
+    }
+    
+    //delete channels when user loggrd out
+    func clearChannels() {
+        channels.removeAll()
     }
     
 }

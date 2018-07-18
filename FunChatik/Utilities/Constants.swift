@@ -26,6 +26,8 @@ let funChatickRedPlaceholder = #colorLiteral(red: 0.8775706887, green: 0.0891123
 
 //Notification Constants
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("chanenlSelected")
 
 //Segues
 let TO_LOGIN = "toLogin"

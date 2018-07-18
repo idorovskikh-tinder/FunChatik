@@ -150,6 +150,5 @@ class AuthService {
             UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
         }
         
-        
     }
 }
