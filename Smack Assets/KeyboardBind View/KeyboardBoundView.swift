@@ -8,6 +8,7 @@
 
 import UIKit
 
+    //Set massege field to the midle of the screen when typing message and keybord is above message field
 extension UIView {
     
     func bindToKeyboard(){

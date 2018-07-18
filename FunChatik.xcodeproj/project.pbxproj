@@ -30,6 +30,7 @@
 		E1BE320D20EF40C500BC8CCB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320C20EF40C500BC8CCB /* LoginVC.swift */; };
 		E1BE320F20EF47E200BC8CCB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */; };
 		E1C786F420FFFB02001EE576 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F320FFFB02001EE576 /* Message.swift */; };
+		E1C786F62100041B001EE576 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F52100041B001EE576 /* KeyboardBoundView.swift */; };
 		E1D6DEA820F442550080607B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEA720F442550080607B /* UserDataService.swift */; };
 		E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */; };
 		E1D6DEAE20F885120080607B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAD20F885120080607B /* AvatarCell.swift */; };
@@ -81,6 +82,7 @@
 		E1BE320C20EF40C500BC8CCB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		E1C786F320FFFB02001EE576 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E1C786F52100041B001EE576 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
 		E1D6DEA720F442550080607B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E1D6DEAD20F885120080607B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */,
 				E1D6DEB120F976A30080607B /* ProfileVC.swift */,
 				E1A06FAD20FD6686000D05F9 /* AddChannelVC.swift */,
+				E1C786F52100041B001EE576 /* KeyboardBoundView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C786F62100041B001EE576 /* KeyboardBoundView.swift in Sources */,
 				E1A06FB220FD7361000D05F9 /* SocketService.swift in Sources */,
 				E1D6DEB320F976A30080607B /* ProfileVC.swift in Sources */,
 				E1DB54EC20FC6C4A00A54CD2 /* ChannelCell.swift in Sources */,
