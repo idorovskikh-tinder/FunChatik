@@ -32,6 +32,15 @@
 		E1C786F420FFFB02001EE576 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F320FFFB02001EE576 /* Message.swift */; };
 		E1C786F62100041B001EE576 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F52100041B001EE576 /* KeyboardBoundView.swift */; };
 		E1C786F821000BDA001EE576 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F721000BDA001EE576 /* MessageCell.swift */; };
+		E1C786FC210036FF001EE576 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FB210036FF001EE576 /* BaseTest.swift */; };
+		E1C786FE21003724001EE576 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FD21003724001EE576 /* BaseScreen.swift */; };
+		E1C78700210037FB001EE576 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FF210037FB001EE576 /* ChatScreen.swift */; };
+		E1C7870221003891001EE576 /* ChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870121003891001EE576 /* ChannelScreen.swift */; };
+		E1C78704210038BB001EE576 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C78703210038BB001EE576 /* LoginScreen.swift */; };
+		E1C78706210038E0001EE576 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C78705210038E0001EE576 /* CreateAccountScreen.swift */; };
+		E1C7870821003915001EE576 /* ChooseAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */; };
+		E1C7870A21003931001EE576 /* CreateChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870921003931001EE576 /* CreateChannelScreen.swift */; };
+		E1C7870C21003955001EE576 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870B21003955001EE576 /* ProfileScreen.swift */; };
 		E1D6DEA820F442550080607B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEA720F442550080607B /* UserDataService.swift */; };
 		E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */; };
 		E1D6DEAE20F885120080607B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAD20F885120080607B /* AvatarCell.swift */; };
@@ -85,6 +94,15 @@
 		E1C786F320FFFB02001EE576 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E1C786F52100041B001EE576 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
 		E1C786F721000BDA001EE576 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		E1C786FB210036FF001EE576 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		E1C786FD21003724001EE576 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		E1C786FF210037FB001EE576 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		E1C7870121003891001EE576 /* ChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelScreen.swift; sourceTree = "<group>"; };
+		E1C78703210038BB001EE576 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E1C78705210038E0001EE576 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAvatarScreen.swift; sourceTree = "<group>"; };
+		E1C7870921003931001EE576 /* CreateChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelScreen.swift; sourceTree = "<group>"; };
+		E1C7870B21003955001EE576 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		E1D6DEA720F442550080607B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E1D6DEAD20F885120080607B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -170,7 +188,8 @@
 		E108E2A820EC5B66000ED27F /* FunChatikUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */,
+				E1C786FA210036D0001EE576 /* Tests */,
+				E1C786F9210036A6001EE576 /* Screens */,
 				E108E2AB20EC5B66000ED27F /* Info.plist */,
 			);
 			path = FunChatikUITests;
@@ -242,6 +261,30 @@
 				E1BE320A20EEF8AC00BC8CCB /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E1C786F9210036A6001EE576 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E1C786FD21003724001EE576 /* BaseScreen.swift */,
+				E1C786FF210037FB001EE576 /* ChatScreen.swift */,
+				E1C7870121003891001EE576 /* ChannelScreen.swift */,
+				E1C78703210038BB001EE576 /* LoginScreen.swift */,
+				E1C78705210038E0001EE576 /* CreateAccountScreen.swift */,
+				E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */,
+				E1C7870921003931001EE576 /* CreateChannelScreen.swift */,
+				E1C7870B21003955001EE576 /* ProfileScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E1C786FA210036D0001EE576 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */,
+				E1C786FB210036FF001EE576 /* BaseTest.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		E1D6DEB520F977040080607B /* XIBs */ = {
@@ -488,10 +531,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C786FC210036FF001EE576 /* BaseTest.swift in Sources */,
+				E1C7870A21003931001EE576 /* CreateChannelScreen.swift in Sources */,
 				E10A234620EC633300C1AA72 /* ChannelVC.swift in Sources */,
+				E1C78704210038BB001EE576 /* LoginScreen.swift in Sources */,
+				E1C7870C21003955001EE576 /* ProfileScreen.swift in Sources */,
+				E1C786FE21003724001EE576 /* BaseScreen.swift in Sources */,
 				E10A234320EC632000C1AA72 /* ChatVC.swift in Sources */,
 				E108E2AA20EC5B66000ED27F /* FunChatikUITests.swift in Sources */,
 				E10A233D20EC60A100C1AA72 /* SWRevealViewController.m in Sources */,
+				E1C78700210037FB001EE576 /* ChatScreen.swift in Sources */,
+				E1C7870821003915001EE576 /* ChooseAvatarScreen.swift in Sources */,
+				E1C7870221003891001EE576 /* ChannelScreen.swift in Sources */,
+				E1C78706210038E0001EE576 /* CreateAccountScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
