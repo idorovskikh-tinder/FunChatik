@@ -191,9 +191,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="RSd-Kc-TFw">
                                 <rect key="frame" x="62.5" y="160" width="250" height="86"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-x8-yTz">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-x8-yTz">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="userNameTextField"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="emailTextField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="Gaw-LR-j1W"/>
                                         </constraints>
