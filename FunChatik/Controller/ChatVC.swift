@@ -36,15 +36,13 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         view.addGestureRecognizer(tap)
         //make our screens slide, when tap on menuButton
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
-        
-        //make able to drag screen with menuButton left-right
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         
         NotificationCenter.default.addObserver(self, selector: #selector(ChatVC.userDataDidChange(_:)), name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
         //listen the notification from channelVC about selectedChannel to set it to lable
         NotificationCenter.default.addObserver(self, selector: #selector(ChatVC.channelSelected(_:)), name: NOTIF_CHANNEL_SELECTED, object: nil)
-                
+        
         SocketService.instance.getChatMessage { (newMessage) in
             if newMessage.channelId == MessageService.instance.selectedChannel?.id && AuthService.instance.isLoggedIn {
                 MessageService.instance.messages.append(newMessage)
@@ -57,15 +55,16 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             }
         }
         
-//        SocketService.instance.getChatMessage { (success) in
-//            if success {
-//                self.tableView.reloadData()
-//                if MessageService.instance.messages.count > 0 {
-//                    let endIndex = IndexPath(row: MessageService.instance.messages.count - 1, section: 0)
-//                    self.tableView.scrollToRow(at: endIndex, at: .bottom, animated: false)
-//                }
-//            }
-//        }
+        //        SocketService.instance.getChatMessage { (success) in
+        //            if success {
+        //                self.tableView.reloadData()
+        //                if MessageService.instance.messages.count > 0 {
+        //                    let endIndex = IndexPath(row: MessageService.instance.messages.count - 1, section: 0)
+        //                    self.tableView.scrollToRow(at: endIndex, at: .bottom, animated: false)
+        //                }
+        //            }
+        //        }
+        
         
         //set typing user above our message field
         SocketService.instance.getTypingUsers { (typingUsers) in

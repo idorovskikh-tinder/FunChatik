@@ -11,6 +11,7 @@ import Foundation
 class UserDataService {
     
     static let instance = UserDataService()
+    
     //other classe can read this, but can't set it derectly, only this file can modifide these vars
     public private(set) var id = ""
     public private(set) var avatarColor = ""
@@ -33,14 +34,14 @@ class UserDataService {
     //conver to a readeble value and set UI color to avatar on Channel screen after creating user, becaouse aftre creating user with avatar and avatar color we've returned like:
     //"[0.98475986903, 0.45039475891, 0.579043857, 1]" and we need to convert it to rgb readable values
     func returnUIColor(components: String) -> UIColor {
-        let scanner = Scanner(string: components) //Scaner converts the characters of an NSString object into number and string values.
+        let scanner = Scanner(string: components)
         let skipped = CharacterSet(charactersIn: "[], ")
         let comma = CharacterSet(charactersIn: ",")
         scanner.charactersToBeSkipped = skipped
         
         var r, g, b, a : NSString?
         
-        scanner.scanUpToCharacters(from: comma, into: &r) //skip brackets and scanning till comma
+        scanner.scanUpToCharacters(from: comma, into: &r)
         scanner.scanUpToCharacters(from: comma, into: &g)
         scanner.scanUpToCharacters(from: comma, into: &b)
         scanner.scanUpToCharacters(from: comma, into: &a)
@@ -52,7 +53,6 @@ class UserDataService {
         guard let bUnwrapped = b else { return defaultColor }
         guard let aUnwrapped = a else { return defaultColor }
         
-        //rgb reauaried to get float values, so we convert in here
         let rfloat = CGFloat(rUnwrapped.doubleValue)
         let gfloat = CGFloat(gUnwrapped.doubleValue)
         let bfloat = CGFloat(bUnwrapped.doubleValue)
@@ -63,7 +63,7 @@ class UserDataService {
         return newUIColor
     }
     
-    //colles when user is logginf out
+    //colls when user is logginf out
     func logoutUser() {
         id = ""
         avatarName = ""

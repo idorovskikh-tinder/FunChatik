@@ -58,7 +58,7 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         var numOfColumns : CGFloat = 3
-        if UIScreen.main.bounds.width > 320 { //the smolest iphone type
+        if UIScreen.main.bounds.width > 320 {
             numOfColumns = 4
         }
         
@@ -69,7 +69,7 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     //when we clock on avatar we are seving the avatar in property inside UserDaraService to avatarName property
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) { //function didselect
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {//function didselect
         if avatarType == .dark {
             UserDataService.instance.setAvatarName(avatarName: "dark\(indexPath.item)")
         } else {
