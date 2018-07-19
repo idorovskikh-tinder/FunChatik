@@ -31,6 +31,7 @@
 		E1BE320F20EF47E200BC8CCB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */; };
 		E1C786F420FFFB02001EE576 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F320FFFB02001EE576 /* Message.swift */; };
 		E1C786F62100041B001EE576 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F52100041B001EE576 /* KeyboardBoundView.swift */; };
+		E1C786F821000BDA001EE576 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F721000BDA001EE576 /* MessageCell.swift */; };
 		E1D6DEA820F442550080607B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEA720F442550080607B /* UserDataService.swift */; };
 		E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */; };
 		E1D6DEAE20F885120080607B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAD20F885120080607B /* AvatarCell.swift */; };
@@ -83,6 +84,7 @@
 		E1BE320E20EF47E200BC8CCB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		E1C786F320FFFB02001EE576 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E1C786F52100041B001EE576 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
+		E1C786F721000BDA001EE576 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		E1D6DEA720F442550080607B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E1D6DEAD20F885120080607B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				E1D6DEAD20F885120080607B /* AvatarCell.swift */,
 				E1D6DEAF20F956400080607B /* CircleImage.swift */,
 				E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */,
+				E1C786F721000BDA001EE576 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				E1DB54EC20FC6C4A00A54CD2 /* ChannelCell.swift in Sources */,
 				E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */,
 				E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */,
+				E1C786F821000BDA001EE576 /* MessageCell.swift in Sources */,
 				E126CBC920F33E36006F7652 /* RoundedButton.swift in Sources */,
 				E1C786F420FFFB02001EE576 /* Message.swift in Sources */,
 				E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */,
