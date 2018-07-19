@@ -46,7 +46,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FunChatik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7U-8e-351">
                                 <rect key="frame" x="16" y="40" width="98" height="24"/>
-                                <accessibility key="accessibilityConfiguration" identifier="funChaticLable"/>
+                                <accessibility key="accessibilityConfiguration" identifier="funChaticChannelLable"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -99,6 +99,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebU-Hi-hcn">
                                                     <rect key="frame" x="35" y="12" width="66" height="20"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="channelNameLbl"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -171,6 +172,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FunChatik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-XY-2Fc">
                                         <rect key="frame" x="56" y="0.0" width="83" height="40"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="funChatikLbl"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="0.77386669119999996" green="0.084958557470000001" blue="0.21623782450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -191,6 +193,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-x8-yTz">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="userNameTextField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="Gaw-LR-j1W"/>
                                         </constraints>
@@ -207,6 +210,7 @@
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IBb-fL-Jbj">
                                         <rect key="frame" x="0.0" y="50" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="passwordTextField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="diB-EA-yLh"/>
                                         </constraints>
@@ -303,7 +307,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBL-I9-tJW">
                                 <rect key="frame" x="331" y="28" width="28" height="28"/>
-                                <accessibility key="accessibilityConfiguration" identifier="closeButtonLoginPage"/>
+                                <accessibility key="accessibilityConfiguration" identifier="closeButtonCreateAccount"/>
                                 <state key="normal" image="close"/>
                                 <connections>
                                     <action selector="closePressed:" destination="xNj-mF-gYf" eventType="touchUpInside" id="LvB-6a-xno"/>
@@ -312,6 +316,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHw-37-M0Y">
                                 <rect key="frame" x="113" y="60" width="149.5" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration" identifier="createAccountLbl"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.77386669119999996" green="0.084958557470000001" blue="0.21623782450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -319,7 +324,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-Cg-Nps" customClass="RoundedButton" customModule="FunChatik" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="597" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <accessibility key="accessibilityConfiguration" identifier="loginButtonLoginScreen"/>
+                                <accessibility key="accessibilityConfiguration" identifier="createAccountBtn"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="Cju-QJ-rg5"/>
                                     <constraint firstAttribute="height" constant="50" id="HvU-4S-uht"/>
@@ -348,7 +353,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HA5-mS-Qd1">
                                 <rect key="frame" x="126" y="431" width="123" height="24"/>
-                                <accessibility key="accessibilityConfiguration" identifier="signUpButton"/>
+                                <accessibility key="accessibilityConfiguration" identifier="chosseBGColorBtn"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
                                 <state key="normal" title="Generate background color">
                                     <color key="titleColor" red="0.403651123" green="0.41209946069999998" blue="0.1280625816" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -360,7 +365,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L64-GA-X32">
                                 <rect key="frame" x="137.5" y="297" width="100" height="130"/>
-                                <accessibility key="accessibilityConfiguration" identifier="signUpButton"/>
+                                <accessibility key="accessibilityConfiguration" identifier="chooseAvatarBtn"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="9Tg-sV-FKI"/>
                                 </constraints>
@@ -378,6 +383,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Vf-zH-G8n">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="userNameCreateAccount"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="NCC-pu-hYv"/>
                                         </constraints>
@@ -394,6 +400,7 @@
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LG0-lk-rKy">
                                         <rect key="frame" x="0.0" y="50" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="emailCreateAccount"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="4mq-XY-EmA"/>
                                         </constraints>
@@ -410,6 +417,7 @@
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8v6-6r-cC6">
                                         <rect key="frame" x="0.0" y="100" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="passwordCreateAccount"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="HcW-zZ-1iz"/>
                                         </constraints>
@@ -481,6 +489,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWd-TT-xVY">
                                 <rect key="frame" x="25" y="28" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="backBtnAcatarScreen"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Wyt-Yc-5bF"/>
                                     <constraint firstAttribute="width" constant="30" id="np9-jA-CKF"/>
@@ -587,6 +596,7 @@
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FunChatik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahf-Pe-04h">
                                         <rect key="frame" x="149" y="45.5" width="77.5" height="21"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="chatChannelLbl"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -603,6 +613,7 @@
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vV7-UN-RyT">
                                 <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <accessibility key="accessibilityConfiguration" identifier="messageSendChatField"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="yaz-Qt-e12"/>
                                 </constraints>
@@ -615,6 +626,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pn-lI-zS4">
                                 <rect key="frame" x="337" y="632" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="sendMessageBtn"/>
                                 <state key="normal" image="send"/>
                                 <connections>
                                     <action selector="sendMsgPressed:" destination="CP9-s7-rxl" eventType="touchUpInside" id="Zd4-nO-aXo"/>
@@ -633,6 +645,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xpd-gt-x7H" customClass="CircleImage" customModule="FunChatik" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="avatarChatImg"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="Bzh-Li-9Dl"/>
                                                         <constraint firstAttribute="width" constant="50" id="rh1-1r-DiN"/>
@@ -640,18 +653,21 @@
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Tala" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd1-jI-JTd">
                                                     <rect key="frame" x="62" y="0.0" width="31" height="20"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="usernameChatLbl"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avX-6c-5rW">
                                                     <rect key="frame" x="62" y="32" width="286" height="22"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="messageChatField"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6W-2q-Lk9">
                                                     <rect key="frame" x="99" y="2" width="61" height="17"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="timeChatLbl"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -670,6 +686,7 @@
                                                 <constraint firstItem="avX-6c-5rW" firstAttribute="top" secondItem="Zd1-jI-JTd" secondAttribute="bottom" constant="12" id="cZT-0T-GdA"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="tableMessageChatCell"/>
                                         <connections>
                                             <outlet property="messageBodyLbl" destination="avX-6c-5rW" id="MEi-gX-xVJ"/>
                                             <outlet property="timeStampLbl" destination="Q6W-2q-Lk9" id="6gj-CJ-uBE"/>

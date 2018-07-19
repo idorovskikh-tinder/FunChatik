@@ -32,6 +32,7 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ts1-fg-JlL">
                             <rect key="frame" x="297" y="8" width="30" height="30"/>
+                            <accessibility key="accessibilityConfiguration" identifier="closeBtnCreateChannel"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="30" id="9kR-Ri-AgG"/>
                                 <constraint firstAttribute="height" constant="30" id="b8I-mb-Oyo"/>
@@ -44,6 +45,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvJ-to-0Uw" customClass="RoundedButton" customModule="FunChatik" customModuleProvider="target">
                             <rect key="frame" x="42.5" y="250" width="250" height="50"/>
                             <color key="backgroundColor" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" identifier="createChannelBtn"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="250" id="iTr-9E-xOc"/>
                                 <constraint firstAttribute="height" constant="50" id="jQt-ND-ovI"/>
@@ -63,6 +65,7 @@
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Channel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKU-av-ato">
                             <rect key="frame" x="86" y="40" width="163" height="26.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="createChannelLbl"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                             <color key="textColor" red="0.87757068869999999" green="0.089112335959999997" blue="0.23407272609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -72,6 +75,7 @@
                             <subviews>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbh-qH-zaO">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
+                                    <accessibility key="accessibilityConfiguration" identifier="channelNameTextField"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="A9f-01-0hm"/>
                                     </constraints>
@@ -89,6 +93,7 @@
                                 </view>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Em-6x-LMJ">
                                     <rect key="frame" x="0.0" y="50" width="250" height="20"/>
+                                    <accessibility key="accessibilityConfiguration" identifier="descriptionChannel"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="lBm-gM-Zaq"/>
                                     </constraints>
