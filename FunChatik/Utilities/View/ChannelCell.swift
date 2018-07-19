@@ -27,9 +27,16 @@ class ChannelCell: UITableViewCell {
         }
     }
     
-    //set title name to channel
+    //set title name to channel and make bold channek name if we have unread message
     func configureCell(channel : Channel) {
-        let title = channel.channelTitle ?? "" //if you can't find channel name return empty string
+        let title = channel.channelTitle ?? ""
         channelName.text = "#\(title)"
+        channelName.font = UIFont(name: "HelveticaNeue-Regular", size: 17)
+        
+        for id in MessageService.instance.unreadChannels {
+            if id == channel.id {
+                channelName.font = UIFont(name: "HelveticaNeue-Bold", size: 22)
+            }
+        }
     }
 }
