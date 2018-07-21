@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C56BE69E90DBDD652F4D089B /* Pods_FunChatikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF408A5A75B15800A9A7E45 /* Pods_FunChatikUITests.framework */; };
 		DE980494F0797585D985546F /* Pods_FunChatik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAA492BDAE6AF8BDCB2288A /* Pods_FunChatik.framework */; };
 		E108E29520EC5B65000ED27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E29420EC5B65000ED27F /* AppDelegate.swift */; };
 		E108E29A20EC5B65000ED27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108E29820EC5B65000ED27F /* Main.storyboard */; };
 		E108E29C20EC5B65000ED27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E108E29B20EC5B65000ED27F /* Assets.xcassets */; };
 		E108E29F20EC5B65000ED27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108E29D20EC5B65000ED27F /* LaunchScreen.storyboard */; };
-		E108E2AA20EC5B66000ED27F /* FunChatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */; };
 		E10A233C20EC60A100C1AA72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */; };
-		E10A233D20EC60A100C1AA72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */; };
 		E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234120EC632000C1AA72 /* ChatVC.swift */; };
-		E10A234320EC632000C1AA72 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234120EC632000C1AA72 /* ChatVC.swift */; };
 		E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234420EC633300C1AA72 /* ChannelVC.swift */; };
-		E10A234620EC633300C1AA72 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234420EC633300C1AA72 /* ChannelVC.swift */; };
 		E126CBC720F332B8006F7652 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126CBC620F332B8006F7652 /* AuthService.swift */; };
 		E126CBC920F33E36006F7652 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126CBC820F33E36006F7652 /* RoundedButton.swift */; };
 		E1A06FAF20FD6686000D05F9 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A06FAD20FD6686000D05F9 /* AddChannelVC.swift */; };
@@ -32,15 +27,6 @@
 		E1C786F420FFFB02001EE576 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F320FFFB02001EE576 /* Message.swift */; };
 		E1C786F62100041B001EE576 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F52100041B001EE576 /* KeyboardBoundView.swift */; };
 		E1C786F821000BDA001EE576 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786F721000BDA001EE576 /* MessageCell.swift */; };
-		E1C786FC210036FF001EE576 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FB210036FF001EE576 /* BaseTest.swift */; };
-		E1C786FE21003724001EE576 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FD21003724001EE576 /* BaseScreen.swift */; };
-		E1C78700210037FB001EE576 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C786FF210037FB001EE576 /* ChatScreen.swift */; };
-		E1C7870221003891001EE576 /* ChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870121003891001EE576 /* ChannelScreen.swift */; };
-		E1C78704210038BB001EE576 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C78703210038BB001EE576 /* LoginScreen.swift */; };
-		E1C78706210038E0001EE576 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C78705210038E0001EE576 /* CreateAccountScreen.swift */; };
-		E1C7870821003915001EE576 /* ChooseAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */; };
-		E1C7870A21003931001EE576 /* CreateChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870921003931001EE576 /* CreateChannelScreen.swift */; };
-		E1C7870C21003955001EE576 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7870B21003955001EE576 /* ProfileScreen.swift */; };
 		E1D6DEA820F442550080607B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEA720F442550080607B /* UserDataService.swift */; };
 		E1D6DEAC20F882490080607B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */; };
 		E1D6DEAE20F885120080607B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAD20F885120080607B /* AvatarCell.swift */; };
@@ -50,10 +36,11 @@
 		E1DB54E820FC5CF600A54CD2 /* MessegeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */; };
 		E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E920FC5D6B00A54CD2 /* Channel.swift */; };
 		E1DB54EC20FC6C4A00A54CD2 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */; };
+		E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E108E2A620EC5B66000ED27F /* PBXContainerItemProxy */ = {
+		E1FD74952102CB6B00031A05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E108E28920EC5B65000ED27F /* Project object */;
 			proxyType = 1;
@@ -73,9 +60,6 @@
 		E108E29B20EC5B65000ED27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E108E29E20EC5B65000ED27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E108E2A020EC5B65000ED27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E108E2A520EC5B66000ED27F /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChatikUITests.swift; sourceTree = "<group>"; };
-		E108E2AB20EC5B66000ED27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E10A233820EC60A100C1AA72 /* FunChatik-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunChatik-Bridging-Header.h"; sourceTree = "<group>"; };
 		E10A233920EC60A100C1AA72 /* FunChatikUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunChatikUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
@@ -94,15 +78,6 @@
 		E1C786F320FFFB02001EE576 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E1C786F52100041B001EE576 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
 		E1C786F721000BDA001EE576 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
-		E1C786FB210036FF001EE576 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
-		E1C786FD21003724001EE576 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
-		E1C786FF210037FB001EE576 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
-		E1C7870121003891001EE576 /* ChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelScreen.swift; sourceTree = "<group>"; };
-		E1C78703210038BB001EE576 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-		E1C78705210038E0001EE576 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
-		E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAvatarScreen.swift; sourceTree = "<group>"; };
-		E1C7870921003931001EE576 /* CreateChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelScreen.swift; sourceTree = "<group>"; };
-		E1C7870B21003955001EE576 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		E1D6DEA720F442550080607B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		E1D6DEAB20F882490080607B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E1D6DEAD20F885120080607B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -112,6 +87,9 @@
 		E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegeService.swift; sourceTree = "<group>"; };
 		E1DB54E920FC5D6B00A54CD2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChatikUITests.swift; sourceTree = "<group>"; };
+		E1FD74942102CB6B00031A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
 		FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,11 +103,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E108E2A220EC5B66000ED27F /* Frameworks */ = {
+		E1FD748D2102CB6B00031A05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56BE69E90DBDD652F4D089B /* Pods_FunChatikUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E108E29320EC5B65000ED27F /* FunChatik */,
-				E108E2A820EC5B66000ED27F /* FunChatikUITests */,
+				E1FD74912102CB6B00031A05 /* FunChatikUITests */,
 				E108E29220EC5B65000ED27F /* Products */,
 				942710EC6285CF3B8C60CA4F /* Pods */,
 				EAE2131E8ACBCF000BAEFE85 /* Frameworks */,
@@ -162,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				E108E29120EC5B65000ED27F /* FunChatik.app */,
-				E108E2A520EC5B66000ED27F /* FunChatikUITests.xctest */,
+				E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,16 +160,6 @@
 				E108E2A020EC5B65000ED27F /* Info.plist */,
 			);
 			path = FunChatik;
-			sourceTree = "<group>";
-		};
-		E108E2A820EC5B66000ED27F /* FunChatikUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E1C786FA210036D0001EE576 /* Tests */,
-				E1C786F9210036A6001EE576 /* Screens */,
-				E108E2AB20EC5B66000ED27F /* Info.plist */,
-			);
-			path = FunChatikUITests;
 			sourceTree = "<group>";
 		};
 		E10A233720EC602C00C1AA72 /* Supporting Files */ = {
@@ -243,6 +210,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E1103D922102CE3000433C1E /* ScreensTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScreensTest;
+			sourceTree = "<group>";
+		};
 		E126CBC520F3328E006F7652 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,30 +237,6 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		E1C786F9210036A6001EE576 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				E1C786FD21003724001EE576 /* BaseScreen.swift */,
-				E1C786FF210037FB001EE576 /* ChatScreen.swift */,
-				E1C7870121003891001EE576 /* ChannelScreen.swift */,
-				E1C78703210038BB001EE576 /* LoginScreen.swift */,
-				E1C78705210038E0001EE576 /* CreateAccountScreen.swift */,
-				E1C7870721003915001EE576 /* ChooseAvatarScreen.swift */,
-				E1C7870921003931001EE576 /* CreateChannelScreen.swift */,
-				E1C7870B21003955001EE576 /* ProfileScreen.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		E1C786FA210036D0001EE576 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E108E2A920EC5B66000ED27F /* FunChatikUITests.swift */,
-				E1C786FB210036FF001EE576 /* BaseTest.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		E1D6DEB520F977040080607B /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +244,16 @@
 				E1A06FAE20FD6686000D05F9 /* AddChannelVC.xib */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		E1FD74912102CB6B00031A05 /* FunChatikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1103D922102CE3000433C1E /* ScreensTest */,
+				E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */,
+				E1FD74942102CB6B00031A05 /* Info.plist */,
+			);
+			path = FunChatikUITests;
 			sourceTree = "<group>";
 		};
 		EAE2131E8ACBCF000BAEFE85 /* Frameworks */ = {
@@ -327,24 +287,22 @@
 			productReference = E108E29120EC5B65000ED27F /* FunChatik.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E108E2A420EC5B66000ED27F /* FunChatikUITests */ = {
+		E1FD748F2102CB6B00031A05 /* FunChatikUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E108E2B120EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatikUITests" */;
+			buildConfigurationList = E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatikUITests" */;
 			buildPhases = (
-				0D7103BDCFB64A1AD8D33AFC /* [CP] Check Pods Manifest.lock */,
-				E108E2A120EC5B66000ED27F /* Sources */,
-				E108E2A220EC5B66000ED27F /* Frameworks */,
-				E108E2A320EC5B66000ED27F /* Resources */,
-				4C782116B29058EECE0204DA /* [CP] Embed Pods Frameworks */,
+				E1FD748C2102CB6B00031A05 /* Sources */,
+				E1FD748D2102CB6B00031A05 /* Frameworks */,
+				E1FD748E2102CB6B00031A05 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E108E2A720EC5B66000ED27F /* PBXTargetDependency */,
+				E1FD74962102CB6B00031A05 /* PBXTargetDependency */,
 			);
 			name = FunChatikUITests;
 			productName = FunChatikUITests;
-			productReference = E108E2A520EC5B66000ED27F /* FunChatikUITests.xctest */;
+			productReference = E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -361,9 +319,8 @@
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
 					};
-					E108E2A420EC5B66000ED27F = {
+					E1FD748F2102CB6B00031A05 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
 						TestTargetID = E108E29020EC5B65000ED27F;
 					};
 				};
@@ -382,7 +339,7 @@
 			projectRoot = "";
 			targets = (
 				E108E29020EC5B65000ED27F /* FunChatik */,
-				E108E2A420EC5B66000ED27F /* FunChatikUITests */,
+				E1FD748F2102CB6B00031A05 /* FunChatikUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E108E2A320EC5B66000ED27F /* Resources */ = {
+		E1FD748E2102CB6B00031A05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,24 +367,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D7103BDCFB64A1AD8D33AFC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FunChatikUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B7A2750BE6097457B28C15C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,30 +383,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C782116B29058EECE0204DA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6442F99B69AEF7EC50F7E581 /* [CP] Embed Pods Frameworks */ = {
@@ -527,33 +442,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E108E2A120EC5B66000ED27F /* Sources */ = {
+		E1FD748C2102CB6B00031A05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C786FC210036FF001EE576 /* BaseTest.swift in Sources */,
-				E1C7870A21003931001EE576 /* CreateChannelScreen.swift in Sources */,
-				E10A234620EC633300C1AA72 /* ChannelVC.swift in Sources */,
-				E1C78704210038BB001EE576 /* LoginScreen.swift in Sources */,
-				E1C7870C21003955001EE576 /* ProfileScreen.swift in Sources */,
-				E1C786FE21003724001EE576 /* BaseScreen.swift in Sources */,
-				E10A234320EC632000C1AA72 /* ChatVC.swift in Sources */,
-				E108E2AA20EC5B66000ED27F /* FunChatikUITests.swift in Sources */,
-				E10A233D20EC60A100C1AA72 /* SWRevealViewController.m in Sources */,
-				E1C78700210037FB001EE576 /* ChatScreen.swift in Sources */,
-				E1C7870821003915001EE576 /* ChooseAvatarScreen.swift in Sources */,
-				E1C7870221003891001EE576 /* ChannelScreen.swift in Sources */,
-				E1C78706210038E0001EE576 /* CreateAccountScreen.swift in Sources */,
+				E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E108E2A720EC5B66000ED27F /* PBXTargetDependency */ = {
+		E1FD74962102CB6B00031A05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E108E29020EC5B65000ED27F /* FunChatik */;
-			targetProxy = E108E2A620EC5B66000ED27F /* PBXContainerItemProxy */;
+			targetProxy = E1FD74952102CB6B00031A05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -732,12 +635,9 @@
 			};
 			name = Release;
 		};
-		E108E2B220EC5B66000ED27F /* Debug */ = {
+		E1FD74982102CB6B00031A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182808E2B03A26F60945C251 /* Pods-FunChatikUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatikUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -747,20 +647,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatikUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatikUITests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunChatik;
 			};
 			name = Debug;
 		};
-		E108E2B320EC5B66000ED27F /* Release */ = {
+		E1FD74992102CB6B00031A05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunChatikUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -770,7 +665,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.FunChatikUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FunChatik/Supporting Files/FunChatikUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunChatik;
@@ -798,11 +692,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E108E2B120EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatikUITests" */ = {
+		E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatikUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E108E2B220EC5B66000ED27F /* Debug */,
-				E108E2B320EC5B66000ED27F /* Release */,
+				E1FD74982102CB6B00031A05 /* Debug */,
+				E1FD74992102CB6B00031A05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
