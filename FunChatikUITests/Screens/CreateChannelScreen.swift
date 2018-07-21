@@ -10,7 +10,7 @@ import Foundation
 
 class CreateChannelScreen: BaseScreen {
     
-    let channelName = textFields["ChannelNameTextField"]
+    let channelName = textFields["channelNameTextField"]
     let channelDesc = textFields["descriptionChannel"]
     let createChannelBtn = buttons["createChannelBtn"]
     

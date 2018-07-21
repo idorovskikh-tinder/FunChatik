@@ -6,11 +6,12 @@
 //  Copyright © 2018 Natalia. All rights reserved.
 //
 
-import Foundation
+import XCTest
 
 class ChannelScreen: BaseScreen {
     
     let addChannel = buttons["addChannelButton"]
+    //let channel = staticTexts
     let loginBtn = buttons["loginButton"]
     
     func tapLoginButton() {
@@ -20,6 +21,10 @@ class ChannelScreen: BaseScreen {
     func tapAddChannel() -> CreateChannelScreen {
         tap(element: addChannel)
         return CreateChannelScreen()
+    }
+    
+    func tapChannelName(name: XCUIElement) {
+        tap(element: name)
     }
     
 }

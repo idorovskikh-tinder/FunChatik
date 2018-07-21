@@ -45,6 +45,7 @@
 		E1DB54E820FC5CF600A54CD2 /* MessegeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */; };
 		E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E920FC5D6B00A54CD2 /* Channel.swift */; };
 		E1DB54EC20FC6C4A00A54CD2 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */; };
+		E1F49F1C2102E74D00B18543 /* CreateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F49F1B2102E74D00B18543 /* CreateData.swift */; };
 		E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegeService.swift; sourceTree = "<group>"; };
 		E1DB54E920FC5D6B00A54CD2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		E1F49F1B2102E74D00B18543 /* CreateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateData.swift; sourceTree = "<group>"; };
 		E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChatikUITests.swift; sourceTree = "<group>"; };
 		E1FD74942102CB6B00031A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -281,9 +283,18 @@
 			path = XIBs;
 			sourceTree = "<group>";
 		};
+		E1F49F1A2102E73000B18543 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1F49F1B2102E74D00B18543 /* CreateData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E1FD74912102CB6B00031A05 /* FunChatikUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E1F49F1A2102E73000B18543 /* Data */,
 				E1103D942102CF9500433C1E /* AllTests */,
 				E1103D922102CE3000433C1E /* ScreensTest */,
 				E1FD74942102CB6B00031A05 /* Info.plist */,
@@ -485,6 +496,7 @@
 				E1103D9F2102D06F00433C1E /* ProfileScreen.swift in Sources */,
 				E1103DA52102D06F00433C1E /* LoginScreen.swift in Sources */,
 				E1103DA62102D06F00433C1E /* ChannelScreen.swift in Sources */,
+				E1F49F1C2102E74D00B18543 /* CreateData.swift in Sources */,
 				E1103DA22102D06F00433C1E /* BaseScreen.swift in Sources */,
 				E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */,
 				E1103DA02102D06F00433C1E /* ChooseAvatarScreen.swift in Sources */,

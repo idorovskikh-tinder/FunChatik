@@ -11,8 +11,10 @@ import Foundation
 class LoginScreen: BaseScreen {
     
     let email = textFields["emailTextField"]
-    let password = textFields["passwoedTextField"]
+    let password = secureTextFields["passwordTextField"]
+    let loginBtn = buttons["loginButtonLoginScreen"]
     let signUpBtn = buttons["signUpButton"]
+     //= app/*@START_MENU_TOKEN@*/.secureTextFields["passwordTextField"]/*[[".secureTextFields[\"password\"]",".secureTextFields[\"passwordTextField\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
     
     func typeEmail(emailText: String) {
         typeText(element: email, text: emailText)
@@ -22,8 +24,14 @@ class LoginScreen: BaseScreen {
         typeText(element: password, text: passwordText)
     }
     
-    func tapSignUp() {
+    func tapLoginBtn() -> ChannelScreen {
+        tap(element: loginBtn)
+        return ChannelScreen()
+    }
+    
+    func tapSignUp() -> CreateAccountScreen {
         tap(element: signUpBtn)
+        return CreateAccountScreen()
     }
     
 }
