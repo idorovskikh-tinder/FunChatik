@@ -10,11 +10,16 @@ import Foundation
 
 class ChannelScreen: BaseScreen {
     
+    let addChannel = buttons["addChannelButton"]
     let loginBtn = buttons["loginButton"]
-
+    
     func tapLoginButton() {
         tap(element: loginBtn)
     }
     
+    func tapAddChannel() -> CreateChannelScreen {
+        tap(element: addChannel)
+        return CreateChannelScreen()
+    }
     
 }

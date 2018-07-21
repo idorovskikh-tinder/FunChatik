@@ -10,8 +10,18 @@ import Foundation
 
 class LoginScreen: BaseScreen {
     
+    let email = textFields["emailTextField"]
+    let password = textFields["passwoedTextField"]
     let signUpBtn = buttons["signUpButton"]
-   
+    
+    func typeEmail(emailText: String) {
+        typeText(element: email, text: emailText)
+    }
+    
+    func typePassword(passwordText: String) {
+        typeText(element: password, text: passwordText)
+    }
+    
     func tapSignUp() {
         tap(element: signUpBtn)
     }

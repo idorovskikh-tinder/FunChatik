@@ -10,7 +10,12 @@ import Foundation
 
 class ProfileScreen: BaseScreen {
     
+    let closeBtn = buttons["closeProfileButton"]
     
+    
+    func tapCloseProfileBtn() {
+        tap(element: closeBtn)
+    }
     
     
 }
