@@ -15,6 +15,15 @@
 		E10A233C20EC60A100C1AA72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A233A20EC60A100C1AA72 /* SWRevealViewController.m */; };
 		E10A234220EC632000C1AA72 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234120EC632000C1AA72 /* ChatVC.swift */; };
 		E10A234520EC633300C1AA72 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A234420EC633300C1AA72 /* ChannelVC.swift */; };
+		E1103D962102CFB000433C1E /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D952102CFB000433C1E /* BaseTest.swift */; };
+		E1103D9F2102D06F00433C1E /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D972102D06F00433C1E /* ProfileScreen.swift */; };
+		E1103DA02102D06F00433C1E /* ChooseAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D982102D06F00433C1E /* ChooseAvatarScreen.swift */; };
+		E1103DA12102D06F00433C1E /* CreateChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D992102D06F00433C1E /* CreateChannelScreen.swift */; };
+		E1103DA22102D06F00433C1E /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D9A2102D06F00433C1E /* BaseScreen.swift */; };
+		E1103DA32102D06F00433C1E /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D9B2102D06F00433C1E /* ChatScreen.swift */; };
+		E1103DA42102D06F00433C1E /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D9C2102D06F00433C1E /* CreateAccountScreen.swift */; };
+		E1103DA52102D06F00433C1E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D9D2102D06F00433C1E /* LoginScreen.swift */; };
+		E1103DA62102D06F00433C1E /* ChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1103D9E2102D06F00433C1E /* ChannelScreen.swift */; };
 		E126CBC720F332B8006F7652 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126CBC620F332B8006F7652 /* AuthService.swift */; };
 		E126CBC920F33E36006F7652 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126CBC820F33E36006F7652 /* RoundedButton.swift */; };
 		E1A06FAF20FD6686000D05F9 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A06FAD20FD6686000D05F9 /* AddChannelVC.swift */; };
@@ -66,6 +75,15 @@
 		E10A233B20EC60A100C1AA72 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		E10A234120EC632000C1AA72 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		E10A234420EC633300C1AA72 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		E1103D952102CFB000433C1E /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		E1103D972102D06F00433C1E /* ProfileScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileScreen.swift; path = FunChatikUITests/Screens/ProfileScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D982102D06F00433C1E /* ChooseAvatarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseAvatarScreen.swift; path = FunChatikUITests/Screens/ChooseAvatarScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D992102D06F00433C1E /* CreateChannelScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChannelScreen.swift; path = FunChatikUITests/Screens/CreateChannelScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D9A2102D06F00433C1E /* BaseScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseScreen.swift; path = FunChatikUITests/Screens/BaseScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D9B2102D06F00433C1E /* ChatScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatScreen.swift; path = FunChatikUITests/Screens/ChatScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D9C2102D06F00433C1E /* CreateAccountScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountScreen.swift; path = FunChatikUITests/Screens/CreateAccountScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D9D2102D06F00433C1E /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = FunChatikUITests/Screens/LoginScreen.swift; sourceTree = SOURCE_ROOT; };
+		E1103D9E2102D06F00433C1E /* ChannelScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelScreen.swift; path = FunChatikUITests/Screens/ChannelScreen.swift; sourceTree = SOURCE_ROOT; };
 		E126CBC620F332B8006F7652 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E126CBC820F33E36006F7652 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		E1A06FAD20FD6686000D05F9 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
@@ -213,8 +231,25 @@
 		E1103D922102CE3000433C1E /* ScreensTest */ = {
 			isa = PBXGroup;
 			children = (
+				E1103D9A2102D06F00433C1E /* BaseScreen.swift */,
+				E1103D9E2102D06F00433C1E /* ChannelScreen.swift */,
+				E1103D9B2102D06F00433C1E /* ChatScreen.swift */,
+				E1103D982102D06F00433C1E /* ChooseAvatarScreen.swift */,
+				E1103D9C2102D06F00433C1E /* CreateAccountScreen.swift */,
+				E1103D992102D06F00433C1E /* CreateChannelScreen.swift */,
+				E1103D9D2102D06F00433C1E /* LoginScreen.swift */,
+				E1103D972102D06F00433C1E /* ProfileScreen.swift */,
 			);
 			path = ScreensTest;
+			sourceTree = "<group>";
+		};
+		E1103D942102CF9500433C1E /* AllTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1103D952102CFB000433C1E /* BaseTest.swift */,
+				E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */,
+			);
+			path = AllTests;
 			sourceTree = "<group>";
 		};
 		E126CBC520F3328E006F7652 /* Services */ = {
@@ -249,8 +284,8 @@
 		E1FD74912102CB6B00031A05 /* FunChatikUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E1103D942102CF9500433C1E /* AllTests */,
 				E1103D922102CE3000433C1E /* ScreensTest */,
-				E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */,
 				E1FD74942102CB6B00031A05 /* Info.plist */,
 			);
 			path = FunChatikUITests;
@@ -446,7 +481,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1103D962102CFB000433C1E /* BaseTest.swift in Sources */,
+				E1103D9F2102D06F00433C1E /* ProfileScreen.swift in Sources */,
+				E1103DA52102D06F00433C1E /* LoginScreen.swift in Sources */,
+				E1103DA62102D06F00433C1E /* ChannelScreen.swift in Sources */,
+				E1103DA22102D06F00433C1E /* BaseScreen.swift in Sources */,
 				E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */,
+				E1103DA02102D06F00433C1E /* ChooseAvatarScreen.swift in Sources */,
+				E1103DA42102D06F00433C1E /* CreateAccountScreen.swift in Sources */,
+				E1103DA12102D06F00433C1E /* CreateChannelScreen.swift in Sources */,
+				E1103DA32102D06F00433C1E /* ChatScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
