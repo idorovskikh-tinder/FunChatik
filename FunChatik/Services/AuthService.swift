@@ -117,6 +117,7 @@ class AuthService {
             }
         }
     }
+
     
     func findUserByEmail(completion: @escaping CompletionHandler) {
         

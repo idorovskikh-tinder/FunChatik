@@ -172,7 +172,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FunChatik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-XY-2Fc">
                                         <rect key="frame" x="56" y="0.0" width="83" height="40"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="funChatikLbl"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="funChatikLblLoginScrren"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="0.77386669119999996" green="0.084958557470000001" blue="0.21623782450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -182,7 +182,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gar-wB-AqF">
                                 <rect key="frame" x="331" y="28" width="28" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" identifier="closeButtonLoginPage"/>
+                                <accessibility key="accessibilityConfiguration" identifier="closeButtonLoginScreen"/>
                                 <state key="normal" image="close"/>
                                 <connections>
                                     <action selector="closePressed:" destination="xNj-mF-gYf" eventType="touchUpInside" id="UUU-rF-kNP"/>

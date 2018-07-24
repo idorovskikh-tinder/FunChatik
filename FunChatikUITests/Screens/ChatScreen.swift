@@ -10,9 +10,18 @@ import Foundation
 
 class ChatScreen: BaseScreen {
     let menuButton = buttons["menuBurgerButton"]
+    let messegeField = textFields["messageSendChatField"]
+    let sendMessageBtn = buttons["sendMessageBtn"]
     
-    func menuButtonTap() -> ChannelScreen {
+    func menuButtonTap() {
         tap(element: menuButton)
-        return ChannelScreen()
+    }
+    
+    func typeMesage(message: String) {
+        typeText(element: messegeField, text: message)
+    }
+    
+    func tapSendMessage() {
+        tap(element: sendMessageBtn)
     }
 }

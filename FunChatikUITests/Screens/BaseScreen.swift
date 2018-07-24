@@ -15,6 +15,7 @@ class BaseScreen {
     static let tableCells = app.tables.cells
     static let secureTextFields = app.secureTextFields
     static let staticTexts = app.staticTexts
+    static let collectionViews = app.collectionViews
     
     
     func tap(element: XCUIElement) {

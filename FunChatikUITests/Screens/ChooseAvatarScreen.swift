@@ -9,9 +9,19 @@
 import Foundation
 
 class ChooseAvatarScreen: BaseScreen {
+    let backBtn = buttons["backBtnAvatarScreen"]
+    let lightAvatars = buttons["Light"]
+    let darkAvatars = buttons["Dark"]
     
+    func tapDarkAvatarsChoice() {
+        tap(element: darkAvatars)
+    }
     
-//    let collectionViewsQuery = app.collectionViews
-//    collectionViewsQuery.children(matching: .cell).element(boundBy: 14).otherElements.containing(.image, identifier:"avatarImage").element.tap()
-    //app/*@START_MENU_TOKEN@*/.buttons["backBtnAcatarScreen"]/*[[".buttons[\"back\"]",".buttons[\"backBtnAcatarScreen\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+    func tapLightAvatarsChoice() {
+        tap(element: lightAvatars)
+    }
+    
+    func tapBackBtn() {
+        tap(element: backBtn)
+    }
 }

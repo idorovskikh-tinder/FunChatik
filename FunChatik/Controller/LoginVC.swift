@@ -36,7 +36,18 @@ class LoginVC: UIViewController {
                         self.spinner.isHidden = true
                         self.spinner.stopAnimating()
                         self.dismiss(animated: true, completion: nil)
-                    }
+                    } //else {
+//                        
+//                        self.spinner.isHidden = true
+//                        self.spinner.stopAnimating()
+//                        
+//                        let alert = UIAlertController(title: "Failed", message: "This user doesn't exist", preferredStyle: .alert)
+//                        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+//                        self.present(alert, animated: true)
+//                        let logoutUser = UserDataService()
+//                        logoutUser.logoutUser()
+//                        self.dismiss(animated: true, completion: nil)
+//                    }
                 })
             }
         }

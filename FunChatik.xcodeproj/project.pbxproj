@@ -167,6 +167,7 @@
 		E108E29320EC5B65000ED27F /* FunChatik */ = {
 			isa = PBXGroup;
 			children = (
+				E10A233F20EC62FA00C1AA72 /* View */,
 				E1D6DEB520F977040080607B /* XIBs */,
 				E126CBC520F3328E006F7652 /* Services */,
 				E1BE320920EEF88000BC8CCB /* Utilities */,
@@ -268,7 +269,6 @@
 		E1BE320920EEF88000BC8CCB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E10A233F20EC62FA00C1AA72 /* View */,
 				E1BE320A20EEF8AC00BC8CCB /* Constants.swift */,
 			);
 			path = Utilities;

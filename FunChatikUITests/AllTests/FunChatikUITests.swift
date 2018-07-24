@@ -18,44 +18,109 @@ class FunChatikUITests: BaseTest {
     }
     
     func testLogin() {
-        let chatScreen = ChatScreen()
-        let channelScreen = chatScreen.menuButtonTap()
-        channelScreen.tapLoginButton()
+        XCTContext.runActivity(named: "to channel Screen") { activity in
+            let chatScreen = ChatScreen()
+            chatScreen.menuButtonTap()
+        }
+        XCTContext.runActivity(named: "to login screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+        }
         
-        let loginScreen = LoginScreen()
-        loginScreen.typeEmail(emailText: CreateData.existUser)
-        loginScreen.typePassword(passwordText: CreateData.existUser)
-        _ = loginScreen.tapLoginBtn()
+        XCTContext.runActivity(named: "try to login") { activity in
+            let loginScreen = LoginScreen()
+            loginScreen.typeEmail(emailText: CreateData.existUser)
+            loginScreen.typePassword(passwordText: CreateData.existUser)
+            _ = loginScreen.tapLoginBtn()
+        }
     }
     
     func testCreateChannel() {
-        testLogin()
-        let channelScreen = ChannelScreen()
-        let createChannel = channelScreen.tapAddChannel()
-        createChannel.typeChannelName(channelNameTxt: CreateData.newChannel)
-        createChannel.typeChannelDescription(channelDescTxt: CreateData.newChannel)
-        _ = createChannel.tapCreateChannelBtn()
+        XCTContext.runActivity(named: "login") { activity in
+            testLogin()
+        }
+        XCTContext.runActivity(named: "to create channel screen") { activity in
+            let channelScreen = ChannelScreen()
+            _ = channelScreen.tapAddChannel()
+        }
+        XCTContext.runActivity(named: "create channel") { activity in
+            let createChannel = CreateChannelScreen()
+            createChannel.typeChannelName(channelNameTxt: CreateData.newChannel)
+            createChannel.typeChannelDescription(channelDescTxt: CreateData.newChannel)
+            _ = createChannel.tapCreateChannelBtn()
+        }
     }
     
     func testCreateuser() {
+        XCTContext.runActivity(named: "to channel screen") { activity in
+            let chatScreen = ChatScreen()
+            chatScreen.menuButtonTap()
+        }
+        XCTContext.runActivity(named: "to login screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+        }
+        XCTContext.runActivity(named: "to create user screen") { activity in
+            let loginScreen = LoginScreen()
+            loginScreen.tapSignUp()
+        }
+        XCTContext.runActivity(named: "create new user") { activity in
+            let createAccountScreen = CreateAccountScreen()
+            createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
+            createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
+            createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
+            _ = createAccountScreen.tapCreateAccountBtn()
+        }
+    }
+    
+    func testSendMessage() {
+        testLogin()
         let chatScreen = ChatScreen()
-        let channelScreen = chatScreen.menuButtonTap()
-        channelScreen.tapLoginButton()
-        let loginScreen = LoginScreen()
-        let createAccountScreen = loginScreen.tapSignUp()
-        createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
-        createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
-        createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
-        _ = createAccountScreen.tapCreateAccountBtn()
+        chatScreen.menuButtonTap()
+        chatScreen.typeMesage(message: "HelloTest")
+        chatScreen.tapSendMessage()
         
     }
     
-    func sendMessage() {
-        testLogin()
+    func testCheckProfile() {
+        XCTContext.runActivity(named: "login") { activity in
+            testLogin()
+        }
+        XCTContext.runActivity(named: "to profile screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+        }
+        XCTContext.runActivity(named: "check profile screen") { activity in
+            let profileScreen = ProfileScreen()
+            profileScreen.tapProfileLbl()
+            profileScreen.tapCloseProfileBtn()
+        }
     }
     
-    func testCheckProfile() {
-        testLogin()
+    func testLogout() {
+        XCTContext.runActivity(named: "login") { activity in
+            testLogin()
+        }
+        XCTContext.runActivity(named: "to profile screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+            //sleep(3)
+        }
+        XCTContext.runActivity(named: "logout") { activity in
+            let profileScreen = ProfileScreen()
+            profileScreen.tapProfileLbl()
+            profileScreen.tapLogout()
+        }
+        XCTContext.runActivity(named: "to login screen") { activity in
+            let channelScreen2 = ChannelScreen()
+            channelScreen2.tapLoginButton()
+        }
+        XCTContext.runActivity(named: "check if it login screen") { activity in
+            let loginScreen = LoginScreen()
+            loginScreen.tapLable()
+            loginScreen.tapCloseBtn()
+        }      
+        
     }
     
     func testChannelName() {
@@ -75,10 +140,54 @@ class FunChatikUITests: BaseTest {
     }
     
     func testChooseDarkAvatar() {
+        XCTContext.runActivity(named: "to channel screen") { activity in
+            let chatScreen = ChatScreen()
+            chatScreen.menuButtonTap()
+        }
+        XCTContext.runActivity(named: "to login screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+        }
+        XCTContext.runActivity(named: "to create user screen") { activity in
+            let loginScreen = LoginScreen()
+            loginScreen.tapSignUp()
+        }
+        XCTContext.runActivity(named: "create new user") { activity in
+            let createAccountScreen = CreateAccountScreen()
+            createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
+            createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
+            createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
+            let chooseAvatarScreen = createAccountScreen.tapChooseAvatar()
+            //chooseAvatarScreen.tapDarkAvatars()
+            
+        }
+        
         
     }
     
     func testChooseLightAvatar() {
+        
+        XCTContext.runActivity(named: "to channel screen") { activity in
+            let chatScreen = ChatScreen()
+            chatScreen.menuButtonTap()
+        }
+        XCTContext.runActivity(named: "to login screen") { activity in
+            let channelScreen = ChannelScreen()
+            channelScreen.tapLoginButton()
+        }
+        XCTContext.runActivity(named: "to create user screen") { activity in
+            let loginScreen = LoginScreen()
+            loginScreen.tapSignUp()
+        }
+        XCTContext.runActivity(named: "create new user") { activity in
+            let createAccountScreen = CreateAccountScreen()
+            createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
+            createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
+            createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
+            let chooseAvatarScreen = createAccountScreen.tapChooseAvatar()
+            chooseAvatarScreen.tapLightAvatarsChoice()
+            chooseAvatarScreen.tapBackBtn()
+        }
         
     }
     

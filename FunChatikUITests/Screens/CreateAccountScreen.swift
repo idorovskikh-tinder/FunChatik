@@ -28,8 +28,9 @@ class CreateAccountScreen: BaseScreen {
         typeText(element: paswword, text: passwordTxt)
     }
     
-    func tapChooseAvatar() {
+    func tapChooseAvatar() -> ChooseAvatarScreen {
         tap(element: chooseAvatar)
+        return ChooseAvatarScreen()
     }
     
     func tapCreateAccountBtn() -> ChannelScreen {

@@ -14,7 +14,9 @@ class LoginScreen: BaseScreen {
     let password = secureTextFields["passwordTextField"]
     let loginBtn = buttons["loginButtonLoginScreen"]
     let signUpBtn = buttons["signUpButton"]
-     //= app/*@START_MENU_TOKEN@*/.secureTextFields["passwordTextField"]/*[[".secureTextFields[\"password\"]",".secureTextFields[\"passwordTextField\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+    let lable = staticTexts["funChatikLblLoginScrren"]
+    let closeBtn = buttons["closeButtonLoginScreen"]
+    
     
     func typeEmail(emailText: String) {
         typeText(element: email, text: emailText)
@@ -32,6 +34,14 @@ class LoginScreen: BaseScreen {
     func tapSignUp() -> CreateAccountScreen {
         tap(element: signUpBtn)
         return CreateAccountScreen()
+    }
+    
+    func tapLable() {
+        tap(element: lable)
+    }
+    
+    func tapCloseBtn() {
+        tap(element: closeBtn)
     }
     
 }
