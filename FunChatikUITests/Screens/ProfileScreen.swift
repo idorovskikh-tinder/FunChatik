@@ -6,13 +6,22 @@
 //  Copyright © 2018 Natalia. All rights reserved.
 //
 
-import Foundation
+import XCTest
 
 class ProfileScreen: BaseScreen {
     
     let closeBtn = buttons["closeProfileButton"]
     let profileLbl = staticTexts["yourProfileLable"]
     let logoutBtn = buttons["logoutProfileButton"]
+    
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(logoutBtn.waitForExistence(timeout: globalTimeout), "Chat Screen is not presented")
+    }
     
     func tapCloseProfileBtn() {
         tap(element: closeBtn)

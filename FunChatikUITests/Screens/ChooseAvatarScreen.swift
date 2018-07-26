@@ -6,12 +6,21 @@
 //  Copyright © 2018 Natalia. All rights reserved.
 //
 
-import Foundation
+import XCTest
 
 class ChooseAvatarScreen: BaseScreen {
     let backBtn = buttons["backBtnAvatarScreen"]
     let lightAvatars = buttons["Light"]
     let darkAvatars = buttons["Dark"]
+    
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(lightAvatars.waitForExistence(timeout: globalTimeout), "ChooseAvatar Screen is not presented")
+    }
     
     func tapDarkAvatarsChoice() {
         tap(element: darkAvatars)

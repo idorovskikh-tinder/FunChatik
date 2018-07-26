@@ -14,6 +14,15 @@ class CreateChannelScreen: BaseScreen {
     let channelDesc = textFields["descriptionChannel"]
     let createChannelBtn = buttons["createChannelBtn"]
     
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(createChannelBtn.waitForExistence(timeout: globalTimeout), "CreateChannel Screen is not presented")
+    }
+    
     
     func typeChannelName(channelNameTxt: String) {
         typeText(element: channelName, text: channelNameTxt)

@@ -17,6 +17,12 @@ class BaseScreen {
     static let staticTexts = app.staticTexts
     static let collectionViews = app.collectionViews
     
+
+    let globalTimeout = 10.0
+    
+    required init() {
+        
+    }
     
     func tap(element: XCUIElement) {
         element.tap()

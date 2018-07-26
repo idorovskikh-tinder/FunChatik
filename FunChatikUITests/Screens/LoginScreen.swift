@@ -6,7 +6,7 @@
 //  Copyright © 2018 Natalia. All rights reserved.
 //
 
-import Foundation
+import XCTest
 
 class LoginScreen: BaseScreen {
     
@@ -17,6 +17,15 @@ class LoginScreen: BaseScreen {
     let lable = staticTexts["funChatikLblLoginScrren"]
     let closeBtn = buttons["closeButtonLoginScreen"]
     
+    
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(lable.waitForExistence(timeout: globalTimeout), "Login Screen is not presented")
+    }
     
     func typeEmail(emailText: String) {
         typeText(element: email, text: emailText)

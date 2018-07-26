@@ -6,7 +6,7 @@
 //  Copyright © 2018 Natalia. All rights reserved.
 //
 
-import Foundation
+import XCTest
 
 class CreateAccountScreen: BaseScreen {
     let userName = textFields["userNameCreateAccount"]
@@ -15,6 +15,15 @@ class CreateAccountScreen: BaseScreen {
     let chooseAvatar = buttons["chooseAvatarBtn"]
     let chooseBGColor = buttons["chooseBGColor"]
     let createAccountBtn = buttons["createAccountBtn"]
+    
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(createAccountBtn.waitForExistence(timeout: globalTimeout), "CreateAccount Screen is not presented")
+    }
     
     func typeUserName(usernameTxt: String) {
         typeText(element: userName, text: usernameTxt)

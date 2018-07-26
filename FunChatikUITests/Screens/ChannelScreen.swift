@@ -14,6 +14,15 @@ class ChannelScreen: BaseScreen {
     //let channel = staticTexts
     let loginBtn = buttons["loginButton"]
     
+    required init() {
+        super .init()
+        visible()
+    }
+    
+    func visible() {
+        XCTAssertTrue(loginBtn.waitForExistence(timeout: globalTimeout), "Channel Screen is not presented")
+    }
+    
     func tapLoginButton() {
         tap(element: loginBtn)
     }

@@ -14,7 +14,7 @@ class FunChatikUITests: BaseTest {
     
     func testExample() {
         let chatScreen = ChatScreen()
-        chatScreen.menuButtonTap()
+        chatScreen.tapTestLogoutBtn()
     }
     
     func testLogin() {
