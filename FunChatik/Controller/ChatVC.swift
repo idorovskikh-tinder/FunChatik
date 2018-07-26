@@ -18,6 +18,12 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var sendBtn: UIButton!
     @IBOutlet weak var typingUserLbl: UILabel!
     
+    
+    @IBAction func testLogoutBtn(_ sender: Any) {
+        let logout = ProfileVC()
+        logout.logoutPressed(sender)
+    }
+    
     // Variables
     var isTyping = false
     
