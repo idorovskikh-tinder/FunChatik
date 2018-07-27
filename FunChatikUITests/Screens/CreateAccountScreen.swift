@@ -13,8 +13,9 @@ class CreateAccountScreen: BaseScreen {
     let email = textFields["emailCreateAccount"]
     let paswword = secureTextFields["passwordCreateAccount"]
     let chooseAvatar = buttons["chooseAvatarBtn"]
-    let chooseBGColor = buttons["chooseBGColor"]
+    let chooseBGColor = buttons["chosseBGColorBtn"]
     let createAccountBtn = buttons["createAccountBtn"]
+    let createAccauntLbl = staticTexts["createAccountLbl"]
     let successAlert = alerts["Successfuly created!"]
     let okBtn = buttons["Wooooow"]
     
@@ -50,6 +51,10 @@ class CreateAccountScreen: BaseScreen {
     
     func tapChooseBGColor() {
         tap(element: chooseBGColor)
+    }
+    
+    func tapCreateAccountLbl() {
+        tap(element: createAccauntLbl)
     }
     
     func tapOkBtn() {
