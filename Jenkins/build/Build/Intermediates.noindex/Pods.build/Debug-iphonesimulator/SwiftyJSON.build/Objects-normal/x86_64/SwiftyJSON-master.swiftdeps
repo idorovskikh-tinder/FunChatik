@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "06b061f0f6922df71dff50e99080547c"
+build_time: [1532663436, 496152000]
+inputs:
+  "/Users/Natalia/FunChatik/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1532135659, 0]

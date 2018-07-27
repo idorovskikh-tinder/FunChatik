@@ -1,0 +1,391 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketService"
+provides-nominal:
+- "9FunChatik13SocketServiceC"
+provides-member:
+- ["9FunChatik13SocketServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Channel"
+- "CompletionHandler"
+- "Message"
+- !private "MessageService"
+- "NSObject"
+- "SocketIOClient"
+- "SocketManager"
+- "SocketService"
+- "String"
+- "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "UserDataService"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s7CVarArgP", "Channel"]
+- !private ["s7CVarArgP", "Message"]
+- !private ["s7CVarArgP", "MessageService"]
+- ["s7CVarArgP", "SocketManager"]
+- ["s7CVarArgP", "SocketService"]
+- ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "UserDataService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "disconnect"]
+- !private ["s7CVarArgP", "emit"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "manager"]
+- !private ["s7CVarArgP", "on"]
+- !private ["s7CVarArgP", "socket"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["9FunChatik7ChannelV", "deinit"]
+- !private ["9FunChatik7ChannelV", "init"]
+- ["8SocketIO12ClientOptionP", "log"]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- ["8SocketIO14ConfigSettableP", "init"]
+- !private ["8SocketIO14ConfigSettableP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "Channel"]
+- !private ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "MessageService"]
+- ["s28CustomDebugStringConvertibleP", "SocketManager"]
+- ["s28CustomDebugStringConvertibleP", "SocketService"]
+- ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDataService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "disconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "emit"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "manager"]
+- !private ["s28CustomDebugStringConvertibleP", "on"]
+- !private ["s28CustomDebugStringConvertibleP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Channel"]
+- !private ["s23CustomStringConvertibleP", "Message"]
+- !private ["s23CustomStringConvertibleP", "MessageService"]
+- ["s23CustomStringConvertibleP", "SocketManager"]
+- ["s23CustomStringConvertibleP", "SocketService"]
+- ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "UserDataService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "disconnect"]
+- !private ["s23CustomStringConvertibleP", "emit"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "manager"]
+- !private ["s23CustomStringConvertibleP", "on"]
+- !private ["s23CustomStringConvertibleP", "socket"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Channel"]
+- !private ["s9EquatableP", "Message"]
+- !private ["s9EquatableP", "MessageService"]
+- ["s9EquatableP", "SocketManager"]
+- ["s9EquatableP", "SocketService"]
+- ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "UserDataService"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "connect"]
+- !private ["s9EquatableP", "disconnect"]
+- !private ["s9EquatableP", "emit"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "log"]
+- !private ["s9EquatableP", "manager"]
+- !private ["s9EquatableP", "on"]
+- !private ["s9EquatableP", "socket"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Channel"]
+- !private ["s8HashableP", "Message"]
+- !private ["s8HashableP", "MessageService"]
+- ["s8HashableP", "SocketManager"]
+- ["s8HashableP", "SocketService"]
+- ["s8HashableP", "URL"]
+- !private ["s8HashableP", "UserDataService"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "connect"]
+- !private ["s8HashableP", "disconnect"]
+- !private ["s8HashableP", "emit"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "manager"]
+- !private ["s8HashableP", "on"]
+- !private ["s8HashableP", "socket"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["9FunChatik7MessageV", "init"]
+- !private ["9FunChatik14MessageServiceC", "channels"]
+- !private ["9FunChatik14MessageServiceC", "instance"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSObjectC", "Channel"]
+- ["So8NSObjectC", "CompletionHandler"]
+- ["So8NSObjectC", "Message"]
+- !private ["So8NSObjectC", "MessageService"]
+- ["So8NSObjectC", "SocketIOClient"]
+- ["So8NSObjectC", "SocketManager"]
+- ["So8NSObjectC", "SocketService"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UserDataService"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addChannel"]
+- ["So8NSObjectC", "addMessage"]
+- ["So8NSObjectC", "closeConnection"]
+- !private ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "disconnect"]
+- !private ["So8NSObjectC", "emit"]
+- ["So8NSObjectC", "establishConnection"]
+- ["So8NSObjectC", "getChannel"]
+- ["So8NSObjectC", "getChatMessage"]
+- ["So8NSObjectC", "getTypingUsers"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instance"]
+- ["So8NSObjectC", "manager"]
+- !private ["So8NSObjectC", "on"]
+- ["So8NSObjectC", "socket"]
+- !private ["So16NSObjectProtocolP", "Channel"]
+- !private ["So16NSObjectProtocolP", "Message"]
+- !private ["So16NSObjectProtocolP", "MessageService"]
+- ["So16NSObjectProtocolP", "SocketManager"]
+- ["So16NSObjectProtocolP", "SocketService"]
+- ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "UserDataService"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "connect"]
+- !private ["So16NSObjectProtocolP", "disconnect"]
+- !private ["So16NSObjectProtocolP", "emit"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "manager"]
+- !private ["So16NSObjectProtocolP", "on"]
+- !private ["So16NSObjectProtocolP", "socket"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["8SocketIO0A4DataP", "append"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- ["8SocketIO0A14DataBufferableP", "init"]
+- !private ["8SocketIO0A14DataBufferableP", "socket"]
+- ["8SocketIO0A12EngineClientP", "init"]
+- !private ["8SocketIO0A12EngineClientP", "socket"]
+- !private ["8SocketIO0A8IOClientC", "connect"]
+- !private ["8SocketIO0A8IOClientC", "disconnect"]
+- !private ["8SocketIO0A8IOClientC", "emit"]
+- !private ["8SocketIO0A8IOClientC", "on"]
+- ["8SocketIO0A14IOClientOptionO", "log"]
+- !private ["8SocketIO0A12IOClientSpecP", "connect"]
+- !private ["8SocketIO0A12IOClientSpecP", "disconnect"]
+- !private ["8SocketIO0A12IOClientSpecP", "emit"]
+- !private ["8SocketIO0A12IOClientSpecP", "on"]
+- ["8SocketIO0A7ManagerC", "init"]
+- !private ["8SocketIO0A7ManagerC", "socket"]
+- ["8SocketIO0A11ManagerSpecP", "init"]
+- !private ["8SocketIO0A11ManagerSpecP", "socket"]
+- ["8SocketIO0A8ParsableP", "init"]
+- !private ["8SocketIO0A8ParsableP", "socket"]
+- !private ["9FunChatik13SocketServiceC", "Channel"]
+- ["9FunChatik13SocketServiceC", "CompletionHandler"]
+- ["9FunChatik13SocketServiceC", "Message"]
+- !private ["9FunChatik13SocketServiceC", "MessageService"]
+- ["9FunChatik13SocketServiceC", "SocketIOClient"]
+- ["9FunChatik13SocketServiceC", "SocketManager"]
+- ["9FunChatik13SocketServiceC", "SocketService"]
+- ["9FunChatik13SocketServiceC", "String"]
+- ["9FunChatik13SocketServiceC", "URL"]
+- !private ["9FunChatik13SocketServiceC", "UserDataService"]
+- ["9FunChatik13SocketServiceC", "Void"]
+- ["9FunChatik13SocketServiceC", "addChannel"]
+- ["9FunChatik13SocketServiceC", "addMessage"]
+- ["9FunChatik13SocketServiceC", "closeConnection"]
+- ["9FunChatik13SocketServiceC", "deinit"]
+- ["9FunChatik13SocketServiceC", "establishConnection"]
+- ["9FunChatik13SocketServiceC", "getChannel"]
+- ["9FunChatik13SocketServiceC", "getChatMessage"]
+- ["9FunChatik13SocketServiceC", "getTypingUsers"]
+- ["9FunChatik13SocketServiceC", "init"]
+- ["9FunChatik13SocketServiceC", "instance"]
+- ["9FunChatik13SocketServiceC", "manager"]
+- ["9FunChatik13SocketServiceC", "socket"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation3URLV", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9FunChatik15UserDataServiceC", "avatarColor"]
+- !private ["9FunChatik15UserDataServiceC", "avatarName"]
+- !private ["9FunChatik15UserDataServiceC", "instance"]
+- !private ["9FunChatik15UserDataServiceC", "name"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Channel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MessageService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDataService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emit"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "manager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "on"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "socket"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "9FunChatik7ChannelV"
+- "8SocketIO12ClientOptionP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "8SocketIO14ConfigSettableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- !private "9FunChatik7MessageV"
+- !private "9FunChatik14MessageServiceC"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "8SocketIO0A4DataP"
+- "8SocketIO0A14DataBufferableP"
+- "8SocketIO0A12EngineClientP"
+- !private "8SocketIO0A8IOClientC"
+- "8SocketIO0A14IOClientOptionO"
+- !private "8SocketIO0A12IOClientSpecP"
+- "8SocketIO0A7ManagerC"
+- "8SocketIO0A11ManagerSpecP"
+- "8SocketIO0A8ParsableP"
+- "9FunChatik13SocketServiceC"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- !private "9FunChatik15UserDataServiceC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/Natalia/FunChatik/FunChatik/Supporting Files/FunChatik-Bridging-Header.h"
+- "/Users/Natalia/FunChatik/Smack Assets/SWReveal/SWRevealViewController.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Natalia/FunChatik/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2de110ecbe7dc7c832523fd158bd06af"

@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "722302c0caf89b084d519f71219d2103"
+build_time: [1532663456, 860763000]
+inputs:
+  "/Users/Natalia/FunChatik/FunChatikUITests/AllTests/BaseTest.swift": [1532572824, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/ProfileScreen.swift": [1532593540, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/LoginScreen.swift": [1532593894, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/ChannelScreen.swift": [1532594966, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Data/CreateData.swift": [1532147414, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/BaseScreen.swift": [1532593511, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/AllTests/LoginUser.swift": [1532662322, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/ChooseAvatarScreen.swift": [1532596904, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/CreateAccountScreen.swift": [1532595294, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/CreateChannelScreen.swift": [1532594503, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/AllTests/ChannelsTests.swift": [1532662322, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/AllTests/CreateUser.swift": [1532662502, 0]
+  "/Users/Natalia/FunChatik/FunChatikUITests/Screens/ChatScreen.swift": [1532577115, 0]

@@ -1,0 +1,588 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileVC"
+provides-nominal:
+- "9FunChatik9ProfileVCC"
+provides-member:
+- ["9FunChatik9ProfileVCC", ""]
+provides-dynamic-lookup:
+- "bgView"
+- "closeModalPressed"
+- "closeTap"
+- "logoutPressed"
+- "profileImg"
+- "userEmail"
+- "userName"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "NOTIF_USER_DATA_DID_CHANGE"
+- !private "NotificationCenter"
+- "ProfileVC"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UITapGestureRecognizer"
+- "UIView"
+- "UIViewController"
+- !private "UserDataService"
+depends-member:
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "ProfileVC"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UserDataService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "bgView"]
+- !private ["s7CVarArgP", "closeTap"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "profileImg"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "userEmail"]
+- !private ["s7CVarArgP", "userName"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "ProfileVC"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDataService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "bgView"]
+- !private ["s28CustomDebugStringConvertibleP", "closeTap"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "profileImg"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "userEmail"]
+- !private ["s28CustomDebugStringConvertibleP", "userName"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "ProfileVC"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UserDataService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "bgView"]
+- !private ["s23CustomStringConvertibleP", "closeTap"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "profileImg"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "userEmail"]
+- !private ["s23CustomStringConvertibleP", "userName"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9EquatableP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "ProfileVC"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- !private ["s9EquatableP", "UserDataService"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "bgView"]
+- !private ["s9EquatableP", "closeTap"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "profileImg"]
+- !private ["s9EquatableP", "setupView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "userEmail"]
+- !private ["s9EquatableP", "userName"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s8HashableP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "ProfileVC"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- !private ["s8HashableP", "UserDataService"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "bgView"]
+- !private ["s8HashableP", "closeTap"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "post"]
+- !private ["s8HashableP", "profileImg"]
+- !private ["s8HashableP", "setupView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "userEmail"]
+- !private ["s8HashableP", "userName"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["So8NSCodingP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So8NSCodingP", "NotificationCenter"]
+- !private ["So8NSCodingP", "ProfileVC"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UserDataService"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "bgView"]
+- !private ["So8NSCodingP", "closeTap"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "profileImg"]
+- !private ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "userEmail"]
+- !private ["So8NSCodingP", "userName"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So26NSExtensionRequestHandlingP", "NotificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "ProfileVC"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDataService"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "bgView"]
+- !private ["So26NSExtensionRequestHandlingP", "closeTap"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "profileImg"]
+- !private ["So26NSExtensionRequestHandlingP", "setupView"]
+- !private ["So26NSExtensionRequestHandlingP", "userEmail"]
+- !private ["So26NSExtensionRequestHandlingP", "userName"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- !private ["So8NSObjectC", "ProfileVC"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UserDataService"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "bgView"]
+- ["So8NSObjectC", "closeModalPressed"]
+- ["So8NSObjectC", "closeTap"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "logoutPressed"]
+- !private ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "profileImg"]
+- ["So8NSObjectC", "setupView"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "userEmail"]
+- ["So8NSObjectC", "userName"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "ProfileVC"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "UserDataService"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "bgView"]
+- !private ["So16NSObjectProtocolP", "closeTap"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So16NSObjectProtocolP", "profileImg"]
+- !private ["So16NSObjectProtocolP", "setupView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "userEmail"]
+- !private ["So16NSObjectProtocolP", "userName"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["9FunChatik9ProfileVCC", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["9FunChatik9ProfileVCC", "NotificationCenter"]
+- !private ["9FunChatik9ProfileVCC", "ProfileVC"]
+- !private ["9FunChatik9ProfileVCC", "UIImage"]
+- ["9FunChatik9ProfileVCC", "UIImageView"]
+- ["9FunChatik9ProfileVCC", "UILabel"]
+- ["9FunChatik9ProfileVCC", "UITapGestureRecognizer"]
+- ["9FunChatik9ProfileVCC", "UIView"]
+- !private ["9FunChatik9ProfileVCC", "UserDataService"]
+- ["9FunChatik9ProfileVCC", "bgView"]
+- ["9FunChatik9ProfileVCC", "closeModalPressed"]
+- ["9FunChatik9ProfileVCC", "closeTap"]
+- ["9FunChatik9ProfileVCC", "deinit"]
+- !private ["9FunChatik9ProfileVCC", "dismiss"]
+- ["9FunChatik9ProfileVCC", "init"]
+- ["9FunChatik9ProfileVCC", "logoutPressed"]
+- ["9FunChatik9ProfileVCC", "profileImg"]
+- ["9FunChatik9ProfileVCC", "setupView"]
+- ["9FunChatik9ProfileVCC", "userEmail"]
+- ["9FunChatik9ProfileVCC", "userName"]
+- ["9FunChatik9ProfileVCC", "viewDidLoad"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So21UIAppearanceContainerP", "NotificationCenter"]
+- !private ["So21UIAppearanceContainerP", "ProfileVC"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UserDataService"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "bgView"]
+- !private ["So21UIAppearanceContainerP", "closeTap"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "profileImg"]
+- !private ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "userEmail"]
+- !private ["So21UIAppearanceContainerP", "userName"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So18UIContentContainerP", "NotificationCenter"]
+- !private ["So18UIContentContainerP", "ProfileVC"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UserDataService"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "bgView"]
+- !private ["So18UIContentContainerP", "closeTap"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "profileImg"]
+- !private ["So18UIContentContainerP", "setupView"]
+- !private ["So18UIContentContainerP", "userEmail"]
+- !private ["So18UIContentContainerP", "userName"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "ProfileVC"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UserDataService"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "bgView"]
+- !private ["So18UIFocusEnvironmentP", "closeTap"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "profileImg"]
+- !private ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "userEmail"]
+- !private ["So18UIFocusEnvironmentP", "userName"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "backgroundColor"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "ProfileVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDataService"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bgView"]
+- !private ["So30UIPasteConfigurationSupportingP", "closeTap"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "profileImg"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "userEmail"]
+- !private ["So30UIPasteConfigurationSupportingP", "userName"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- !private ["So11UIResponderC", "ProfileVC"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "UserDataService"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "bgView"]
+- ["So11UIResponderC", "closeModalPressed"]
+- ["So11UIResponderC", "closeTap"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "logoutPressed"]
+- ["So11UIResponderC", "profileImg"]
+- ["So11UIResponderC", "setupView"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "userEmail"]
+- ["So11UIResponderC", "userName"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "ProfileVC"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDataService"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "bgView"]
+- !private ["So30UIResponderStandardEditActionsP", "closeTap"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "profileImg"]
+- !private ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "userEmail"]
+- !private ["So30UIResponderStandardEditActionsP", "userName"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So16UIStateRestoringP", "NotificationCenter"]
+- !private ["So16UIStateRestoringP", "ProfileVC"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UserDataService"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "bgView"]
+- !private ["So16UIStateRestoringP", "closeTap"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "profileImg"]
+- !private ["So16UIStateRestoringP", "setupView"]
+- !private ["So16UIStateRestoringP", "userEmail"]
+- !private ["So16UIStateRestoringP", "userName"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So18UITraitEnvironmentP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So18UITraitEnvironmentP", "NotificationCenter"]
+- !private ["So18UITraitEnvironmentP", "ProfileVC"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UserDataService"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bgView"]
+- !private ["So18UITraitEnvironmentP", "closeTap"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "profileImg"]
+- !private ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "userEmail"]
+- !private ["So18UITraitEnvironmentP", "userName"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["So16UIViewControllerC", "NotificationCenter"]
+- !private ["So16UIViewControllerC", "ProfileVC"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "UserDataService"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bgView"]
+- ["So16UIViewControllerC", "closeModalPressed"]
+- ["So16UIViewControllerC", "closeTap"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "logoutPressed"]
+- ["So16UIViewControllerC", "profileImg"]
+- ["So16UIViewControllerC", "setupView"]
+- ["So16UIViewControllerC", "userEmail"]
+- ["So16UIViewControllerC", "userName"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9FunChatik15UserDataServiceC", "avatarColor"]
+- !private ["9FunChatik15UserDataServiceC", "avatarName"]
+- !private ["9FunChatik15UserDataServiceC", "email"]
+- !private ["9FunChatik15UserDataServiceC", "instance"]
+- !private ["9FunChatik15UserDataServiceC", "logoutUser"]
+- !private ["9FunChatik15UserDataServiceC", "name"]
+- !private ["9FunChatik15UserDataServiceC", "returnUIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NOTIF_USER_DATA_DID_CHANGE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProfileVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDataService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bgView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profileImg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userEmail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So18NotificationCenterC"
+- "9FunChatik9ProfileVCC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9FunChatik15UserDataServiceC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/Natalia/FunChatik/FunChatik/Supporting Files/FunChatik-Bridging-Header.h"
+- "/Users/Natalia/FunChatik/Smack Assets/SWReveal/SWRevealViewController.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Natalia/FunChatik/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Natalia/FunChatik/Jenkins/build/Build/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f5299cf5174922973f09754502427f96"

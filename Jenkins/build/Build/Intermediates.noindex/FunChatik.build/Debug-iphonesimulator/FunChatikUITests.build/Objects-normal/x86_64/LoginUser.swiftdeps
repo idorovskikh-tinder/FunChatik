@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginUser"
+provides-nominal:
+- "16FunChatikUITests9LoginUserC"
+provides-member:
+- ["16FunChatikUITests9LoginUserC", ""]
+provides-dynamic-lookup:
+- "testCheckProfile"
+- "testLoginExistingUser"
+- "testLoginUnregisterUser"
+- "testLogout"
+depends-top-level:
+- "BaseTest"
+- !private "ChannelScreen"
+- !private "ChatScreen"
+- !private "CreateData"
+- !private "LoginScreen"
+- "LoginUser"
+- !private "ProfileScreen"
+- !private "StringLiteralType"
+- "UnicodeScalarType"
+- !private "XCTAssertTrue"
+- !private "XCTContext"
+depends-member:
+- !private ["16FunChatikUITests10BaseScreenC", "alertFailed"]
+- !private ["16FunChatikUITests10BaseScreenC", "alertSuccessExists"]
+- !private ["16FunChatikUITests10BaseScreenC", "init"]
+- !private ["16FunChatikUITests10BaseScreenC", "menuButtonTap"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapCloseBtn"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapCloseProfileBtn"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapLable"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapLoginBtn"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapLoginButton"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapLogout"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapOkBtn"]
+- !private ["16FunChatikUITests10BaseScreenC", "tapProfileLbl"]
+- !private ["16FunChatikUITests10BaseScreenC", "typeEmail"]
+- !private ["16FunChatikUITests10BaseScreenC", "typePassword"]
+- !private ["16FunChatikUITests8BaseTestC", "ChannelScreen"]
+- !private ["16FunChatikUITests8BaseTestC", "ChatScreen"]
+- !private ["16FunChatikUITests8BaseTestC", "CreateData"]
+- !private ["16FunChatikUITests8BaseTestC", "LoginScreen"]
+- !private ["16FunChatikUITests8BaseTestC", "ProfileScreen"]
+- !private ["16FunChatikUITests8BaseTestC", "XCTAssertTrue"]
+- !private ["16FunChatikUITests8BaseTestC", "XCTContext"]
+- ["16FunChatikUITests8BaseTestC", ""]
+- ["16FunChatikUITests8BaseTestC", "init"]
+- ["16FunChatikUITests8BaseTestC", "testCheckProfile"]
+- ["16FunChatikUITests8BaseTestC", "testLoginExistingUser"]
+- ["16FunChatikUITests8BaseTestC", "testLoginUnregisterUser"]
+- ["16FunChatikUITests8BaseTestC", "testLogout"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "ChannelScreen"]
+- !private ["s7CVarArgP", "ChatScreen"]
+- !private ["s7CVarArgP", "CreateData"]
+- !private ["s7CVarArgP", "LoginScreen"]
+- !private ["s7CVarArgP", "ProfileScreen"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "XCTContext"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "runActivity"]
+- !private ["s7CVarArgP", "testLoginExistingUser"]
+- !private ["16FunChatikUITests13ChannelScreenC", "init"]
+- !private ["16FunChatikUITests13ChannelScreenC", "tapLoginButton"]
+- !private ["16FunChatikUITests10ChatScreenC", "init"]
+- !private ["16FunChatikUITests10ChatScreenC", "menuButtonTap"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["16FunChatikUITests10CreateDataC", "existUser"]
+- !private ["s28CustomDebugStringConvertibleP", "ChannelScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "ChatScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "CreateData"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "ProfileScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTContext"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "runActivity"]
+- !private ["s28CustomDebugStringConvertibleP", "testLoginExistingUser"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ChannelScreen"]
+- !private ["s23CustomStringConvertibleP", "ChatScreen"]
+- !private ["s23CustomStringConvertibleP", "CreateData"]
+- !private ["s23CustomStringConvertibleP", "LoginScreen"]
+- !private ["s23CustomStringConvertibleP", "ProfileScreen"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "XCTContext"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "runActivity"]
+- !private ["s23CustomStringConvertibleP", "testLoginExistingUser"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ChannelScreen"]
+- !private ["s9EquatableP", "ChatScreen"]
+- !private ["s9EquatableP", "CreateData"]
+- !private ["s9EquatableP", "LoginScreen"]
+- !private ["s9EquatableP", "ProfileScreen"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- !private ["s9EquatableP", "XCTContext"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "runActivity"]
+- !private ["s9EquatableP", "testLoginExistingUser"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "ChannelScreen"]
+- !private ["s8HashableP", "ChatScreen"]
+- !private ["s8HashableP", "CreateData"]
+- !private ["s8HashableP", "LoginScreen"]
+- !private ["s8HashableP", "ProfileScreen"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- !private ["s8HashableP", "XCTContext"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "runActivity"]
+- !private ["s8HashableP", "testLoginExistingUser"]
+- !private ["16FunChatikUITests11LoginScreenC", "alertFailed"]
+- !private ["16FunChatikUITests11LoginScreenC", "alertSuccessExists"]
+- !private ["16FunChatikUITests11LoginScreenC", "init"]
+- !private ["16FunChatikUITests11LoginScreenC", "tapCloseBtn"]
+- !private ["16FunChatikUITests11LoginScreenC", "tapLable"]
+- !private ["16FunChatikUITests11LoginScreenC", "tapLoginBtn"]
+- !private ["16FunChatikUITests11LoginScreenC", "tapOkBtn"]
+- !private ["16FunChatikUITests11LoginScreenC", "typeEmail"]
+- !private ["16FunChatikUITests11LoginScreenC", "typePassword"]
+- !private ["16FunChatikUITests9LoginUserC", "ChannelScreen"]
+- !private ["16FunChatikUITests9LoginUserC", "ChatScreen"]
+- !private ["16FunChatikUITests9LoginUserC", "CreateData"]
+- !private ["16FunChatikUITests9LoginUserC", "LoginScreen"]
+- !private ["16FunChatikUITests9LoginUserC", "ProfileScreen"]
+- !private ["16FunChatikUITests9LoginUserC", "XCTAssertTrue"]
+- !private ["16FunChatikUITests9LoginUserC", "XCTContext"]
+- ["16FunChatikUITests9LoginUserC", "deinit"]
+- ["16FunChatikUITests9LoginUserC", "init"]
+- ["16FunChatikUITests9LoginUserC", "testCheckProfile"]
+- ["16FunChatikUITests9LoginUserC", "testLoginExistingUser"]
+- ["16FunChatikUITests9LoginUserC", "testLoginUnregisterUser"]
+- ["16FunChatikUITests9LoginUserC", "testLogout"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "ChannelScreen"]
+- !private ["So8NSObjectC", "ChatScreen"]
+- !private ["So8NSObjectC", "CreateData"]
+- !private ["So8NSObjectC", "LoginScreen"]
+- !private ["So8NSObjectC", "ProfileScreen"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "XCTContext"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "runActivity"]
+- ["So8NSObjectC", "testCheckProfile"]
+- ["So8NSObjectC", "testLoginExistingUser"]
+- ["So8NSObjectC", "testLoginUnregisterUser"]
+- ["So8NSObjectC", "testLogout"]
+- !private ["So16NSObjectProtocolP", "ChannelScreen"]
+- !private ["So16NSObjectProtocolP", "ChatScreen"]
+- !private ["So16NSObjectProtocolP", "CreateData"]
+- !private ["So16NSObjectProtocolP", "LoginScreen"]
+- !private ["So16NSObjectProtocolP", "ProfileScreen"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- !private ["So16NSObjectProtocolP", "XCTContext"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "runActivity"]
+- !private ["So16NSObjectProtocolP", "testLoginExistingUser"]
+- !private ["16FunChatikUITests13ProfileScreenC", "init"]
+- !private ["16FunChatikUITests13ProfileScreenC", "tapCloseProfileBtn"]
+- !private ["16FunChatikUITests13ProfileScreenC", "tapLogout"]
+- !private ["16FunChatikUITests13ProfileScreenC", "tapProfileLbl"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So11XCTActivityP", "ChannelScreen"]
+- !private ["So11XCTActivityP", "ChatScreen"]
+- !private ["So11XCTActivityP", "CreateData"]
+- !private ["So11XCTActivityP", "LoginScreen"]
+- !private ["So11XCTActivityP", "ProfileScreen"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "XCTContext"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "testLoginExistingUser"]
+- !private ["So10XCTContextC", "runActivity"]
+- !private ["So17XCTWaiterDelegateP", "ChannelScreen"]
+- !private ["So17XCTWaiterDelegateP", "ChatScreen"]
+- !private ["So17XCTWaiterDelegateP", "CreateData"]
+- !private ["So17XCTWaiterDelegateP", "LoginScreen"]
+- !private ["So17XCTWaiterDelegateP", "ProfileScreen"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "XCTContext"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "testLoginExistingUser"]
+- !private ["So6XCTestC", "ChannelScreen"]
+- !private ["So6XCTestC", "ChatScreen"]
+- !private ["So6XCTestC", "CreateData"]
+- !private ["So6XCTestC", "LoginScreen"]
+- !private ["So6XCTestC", "ProfileScreen"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "XCTContext"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "testCheckProfile"]
+- ["So6XCTestC", "testLoginExistingUser"]
+- ["So6XCTestC", "testLoginUnregisterUser"]
+- ["So6XCTestC", "testLogout"]
+- !private ["So10XCTestCaseC", "ChannelScreen"]
+- !private ["So10XCTestCaseC", "ChatScreen"]
+- !private ["So10XCTestCaseC", "CreateData"]
+- !private ["So10XCTestCaseC", "LoginScreen"]
+- !private ["So10XCTestCaseC", "ProfileScreen"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- !private ["So10XCTestCaseC", "XCTContext"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testCheckProfile"]
+- ["So10XCTestCaseC", "testLoginExistingUser"]
+- ["So10XCTestCaseC", "testLoginUnregisterUser"]
+- ["So10XCTestCaseC", "testLogout"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChannelScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChatScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CreateData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProfileScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "runActivity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testLoginExistingUser"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "16FunChatikUITests10BaseScreenC"
+- "16FunChatikUITests8BaseTestC"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "16FunChatikUITests13ChannelScreenC"
+- !private "16FunChatikUITests10ChatScreenC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "16FunChatikUITests10CreateDataC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "16FunChatikUITests11LoginScreenC"
+- "16FunChatikUITests9LoginUserC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "16FunChatikUITests13ProfileScreenC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So11XCTActivityP"
+- !private "So10XCTContextC"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7612267aa10e7003405c7a71d0e8386c"

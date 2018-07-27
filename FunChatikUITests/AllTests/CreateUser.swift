@@ -52,6 +52,8 @@ class CreateUser: BaseTest {
             createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
             createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
             createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
+            createAccountScreen.tapChooseBGColor()
+            createAccountScreen.tapChooseBGColor()
             createAccountScreen.tapCreateAccountBtn()
             XCTAssertTrue(createAccountScreen.alertSuccessExists())
             createAccountScreen.tapOkBtn()

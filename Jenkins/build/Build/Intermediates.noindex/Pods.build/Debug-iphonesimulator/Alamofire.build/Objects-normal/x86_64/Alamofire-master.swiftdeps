@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "01a6722040261f0832f9bb10d43a7ba4"
+build_time: [1532663436, 489340000]
+inputs:
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/AFError.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Alamofire.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/MultipartFormData.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Notifications.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/ParameterEncoding.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Request.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Response.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/ResponseSerialization.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Result.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/SessionDelegate.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/SessionManager.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/TaskDelegate.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Timeline.swift": [1532135657, 0]
+  "/Users/Natalia/FunChatik/Pods/Alamofire/Source/Validation.swift": [1532135657, 0]

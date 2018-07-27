@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChooseAvatarScreen"
+provides-nominal:
+- "16FunChatikUITests18ChooseAvatarScreenC"
+provides-member:
+- ["16FunChatikUITests18ChooseAvatarScreenC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BaseScreen"
+- "ChooseAvatarScreen"
+- "CreateAccountScreen"
+- "StringLiteralType"
+- !private "XCTAssertTrue"
+depends-member:
+- ["16FunChatikUITests10BaseScreenC", "CreateAccountScreen"]
+- !private ["16FunChatikUITests10BaseScreenC", "XCTAssertTrue"]
+- ["16FunChatikUITests10BaseScreenC", ""]
+- ["16FunChatikUITests10BaseScreenC", "backBtn"]
+- ["16FunChatikUITests10BaseScreenC", "buttons"]
+- ["16FunChatikUITests10BaseScreenC", "darkAvatars"]
+- !private ["16FunChatikUITests10BaseScreenC", "globalTimeout"]
+- ["16FunChatikUITests10BaseScreenC", "init"]
+- ["16FunChatikUITests10BaseScreenC", "lightAvatars"]
+- !private ["16FunChatikUITests10BaseScreenC", "tap"]
+- ["16FunChatikUITests10BaseScreenC", "tapBackBtn"]
+- ["16FunChatikUITests10BaseScreenC", "tapDarkAvatarsChoice"]
+- ["16FunChatikUITests10BaseScreenC", "tapLightAvatarsChoice"]
+- ["16FunChatikUITests10BaseScreenC", "visible"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "waitForExistence"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "CreateAccountScreen"]
+- !private ["16FunChatikUITests18ChooseAvatarScreenC", "XCTAssertTrue"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "backBtn"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "buttons"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "darkAvatars"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "deinit"]
+- !private ["16FunChatikUITests18ChooseAvatarScreenC", "globalTimeout"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "init"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "lightAvatars"]
+- !private ["16FunChatikUITests18ChooseAvatarScreenC", "tap"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "tapBackBtn"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "tapDarkAvatarsChoice"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "tapLightAvatarsChoice"]
+- ["16FunChatikUITests18ChooseAvatarScreenC", "visible"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["16FunChatikUITests19CreateAccountScreenC", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "waitForExistence"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "waitForExistence"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "waitForExistence"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "waitForExistence"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "waitForExistence"]
+- ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "waitForExistence"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So11XCUIElementC", "waitForExistence"]
+- !private ["So21XCUIElementAttributesP", "waitForExistence"]
+- ["So16XCUIElementQueryC", "subscript"]
+- ["So28XCUIElementTypeQueryProviderP", "subscript"]
+- !private ["So28XCUIElementTypeQueryProviderP", "waitForExistence"]
+- !private ["So23XCUIScreenshotProvidingP", "waitForExistence"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "waitForExistence"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "16FunChatikUITests10BaseScreenC"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "16FunChatikUITests18ChooseAvatarScreenC"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "16FunChatikUITests19CreateAccountScreenC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So11XCUIElementC"
+- !private "So21XCUIElementAttributesP"
+- "So16XCUIElementQueryC"
+- "So28XCUIElementTypeQueryProviderP"
+- !private "So23XCUIScreenshotProvidingP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8c0ebb5b191718e00b9d41b3a983e7cb"

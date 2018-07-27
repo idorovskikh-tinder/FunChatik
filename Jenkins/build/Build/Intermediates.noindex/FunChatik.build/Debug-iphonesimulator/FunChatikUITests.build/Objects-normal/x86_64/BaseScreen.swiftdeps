@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseScreen"
+provides-nominal:
+- "16FunChatikUITests10BaseScreenC"
+provides-member:
+- ["16FunChatikUITests10BaseScreenC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "BaseScreen"
+- "String"
+- "XCUIApplication"
+- "XCUIElement"
+- !private "||"
+depends-member:
+- ["16FunChatikUITests10BaseScreenC", "String"]
+- ["16FunChatikUITests10BaseScreenC", "XCUIApplication"]
+- ["16FunChatikUITests10BaseScreenC", "XCUIElement"]
+- ["16FunChatikUITests10BaseScreenC", "alerts"]
+- ["16FunChatikUITests10BaseScreenC", "app"]
+- ["16FunChatikUITests10BaseScreenC", "buttons"]
+- ["16FunChatikUITests10BaseScreenC", "collectionViews"]
+- ["16FunChatikUITests10BaseScreenC", "deinit"]
+- ["16FunChatikUITests10BaseScreenC", "globalTimeout"]
+- ["16FunChatikUITests10BaseScreenC", "init"]
+- ["16FunChatikUITests10BaseScreenC", "secureTextFields"]
+- ["16FunChatikUITests10BaseScreenC", "staticTexts"]
+- ["16FunChatikUITests10BaseScreenC", "tableCells"]
+- ["16FunChatikUITests10BaseScreenC", "tap"]
+- ["16FunChatikUITests10BaseScreenC", "textFields"]
+- ["16FunChatikUITests10BaseScreenC", "typeText"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "alerts"]
+- ["s7CVarArgP", "buttons"]
+- ["s7CVarArgP", "cells"]
+- ["s7CVarArgP", "collectionViews"]
+- !private ["s7CVarArgP", "elementType"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "secureTextFields"]
+- ["s7CVarArgP", "staticTexts"]
+- ["s7CVarArgP", "tables"]
+- !private ["s7CVarArgP", "tap"]
+- ["s7CVarArgP", "textFields"]
+- !private ["s7CVarArgP", "typeText"]
+- ["s28CustomDebugStringConvertibleP", "alerts"]
+- ["s28CustomDebugStringConvertibleP", "buttons"]
+- ["s28CustomDebugStringConvertibleP", "cells"]
+- ["s28CustomDebugStringConvertibleP", "collectionViews"]
+- !private ["s28CustomDebugStringConvertibleP", "elementType"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "secureTextFields"]
+- ["s28CustomDebugStringConvertibleP", "staticTexts"]
+- ["s28CustomDebugStringConvertibleP", "tables"]
+- !private ["s28CustomDebugStringConvertibleP", "tap"]
+- ["s28CustomDebugStringConvertibleP", "textFields"]
+- !private ["s28CustomDebugStringConvertibleP", "typeText"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "alerts"]
+- ["s23CustomStringConvertibleP", "buttons"]
+- ["s23CustomStringConvertibleP", "cells"]
+- ["s23CustomStringConvertibleP", "collectionViews"]
+- !private ["s23CustomStringConvertibleP", "elementType"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "secureTextFields"]
+- ["s23CustomStringConvertibleP", "staticTexts"]
+- ["s23CustomStringConvertibleP", "tables"]
+- !private ["s23CustomStringConvertibleP", "tap"]
+- ["s23CustomStringConvertibleP", "textFields"]
+- !private ["s23CustomStringConvertibleP", "typeText"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["So11XCUIElementC11ElementTypeO", "secureTextField"]
+- !private ["So11XCUIElementC11ElementTypeO", "textField"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "alerts"]
+- ["s9EquatableP", "buttons"]
+- ["s9EquatableP", "cells"]
+- ["s9EquatableP", "collectionViews"]
+- !private ["s9EquatableP", "elementType"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "secureTextField"]
+- ["s9EquatableP", "secureTextFields"]
+- ["s9EquatableP", "staticTexts"]
+- ["s9EquatableP", "tables"]
+- !private ["s9EquatableP", "tap"]
+- !private ["s9EquatableP", "textField"]
+- ["s9EquatableP", "textFields"]
+- !private ["s9EquatableP", "typeText"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "alerts"]
+- ["s8HashableP", "buttons"]
+- ["s8HashableP", "cells"]
+- ["s8HashableP", "collectionViews"]
+- !private ["s8HashableP", "elementType"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "secureTextField"]
+- ["s8HashableP", "secureTextFields"]
+- ["s8HashableP", "staticTexts"]
+- ["s8HashableP", "tables"]
+- !private ["s8HashableP", "tap"]
+- !private ["s8HashableP", "textField"]
+- ["s8HashableP", "textFields"]
+- !private ["s8HashableP", "typeText"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSObjectC", "alerts"]
+- ["So8NSObjectC", "buttons"]
+- ["So8NSObjectC", "cells"]
+- ["So8NSObjectC", "collectionViews"]
+- !private ["So8NSObjectC", "elementType"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "secureTextFields"]
+- ["So8NSObjectC", "staticTexts"]
+- ["So8NSObjectC", "tables"]
+- !private ["So8NSObjectC", "tap"]
+- ["So8NSObjectC", "textFields"]
+- !private ["So8NSObjectC", "typeText"]
+- ["So16NSObjectProtocolP", "alerts"]
+- ["So16NSObjectProtocolP", "buttons"]
+- ["So16NSObjectProtocolP", "cells"]
+- ["So16NSObjectProtocolP", "collectionViews"]
+- !private ["So16NSObjectProtocolP", "elementType"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "secureTextFields"]
+- ["So16NSObjectProtocolP", "staticTexts"]
+- ["So16NSObjectProtocolP", "tables"]
+- !private ["So16NSObjectProtocolP", "tap"]
+- ["So16NSObjectProtocolP", "textFields"]
+- !private ["So16NSObjectProtocolP", "typeText"]
+- !private ["s16RawRepresentableP", "secureTextField"]
+- !private ["s16RawRepresentableP", "textField"]
+- ["So15XCUIApplicationC", "alerts"]
+- ["So15XCUIApplicationC", "buttons"]
+- ["So15XCUIApplicationC", "collectionViews"]
+- ["So15XCUIApplicationC", "init"]
+- ["So15XCUIApplicationC", "secureTextFields"]
+- ["So15XCUIApplicationC", "staticTexts"]
+- ["So15XCUIApplicationC", "tables"]
+- ["So15XCUIApplicationC", "textFields"]
+- ["So11XCUIElementC", "alerts"]
+- ["So11XCUIElementC", "buttons"]
+- ["So11XCUIElementC", "collectionViews"]
+- !private ["So11XCUIElementC", "elementType"]
+- ["So11XCUIElementC", "init"]
+- ["So11XCUIElementC", "secureTextFields"]
+- ["So11XCUIElementC", "staticTexts"]
+- ["So11XCUIElementC", "tables"]
+- !private ["So11XCUIElementC", "tap"]
+- ["So11XCUIElementC", "textFields"]
+- !private ["So11XCUIElementC", "typeText"]
+- ["So21XCUIElementAttributesP", "alerts"]
+- ["So21XCUIElementAttributesP", "buttons"]
+- ["So21XCUIElementAttributesP", "collectionViews"]
+- !private ["So21XCUIElementAttributesP", "elementType"]
+- ["So21XCUIElementAttributesP", "init"]
+- ["So21XCUIElementAttributesP", "secureTextFields"]
+- ["So21XCUIElementAttributesP", "staticTexts"]
+- ["So21XCUIElementAttributesP", "tables"]
+- !private ["So21XCUIElementAttributesP", "tap"]
+- ["So21XCUIElementAttributesP", "textFields"]
+- !private ["So21XCUIElementAttributesP", "typeText"]
+- ["So16XCUIElementQueryC", "cells"]
+- ["So28XCUIElementTypeQueryProviderP", "alerts"]
+- ["So28XCUIElementTypeQueryProviderP", "buttons"]
+- ["So28XCUIElementTypeQueryProviderP", "cells"]
+- ["So28XCUIElementTypeQueryProviderP", "collectionViews"]
+- !private ["So28XCUIElementTypeQueryProviderP", "elementType"]
+- ["So28XCUIElementTypeQueryProviderP", "init"]
+- ["So28XCUIElementTypeQueryProviderP", "secureTextFields"]
+- ["So28XCUIElementTypeQueryProviderP", "staticTexts"]
+- ["So28XCUIElementTypeQueryProviderP", "tables"]
+- !private ["So28XCUIElementTypeQueryProviderP", "tap"]
+- ["So28XCUIElementTypeQueryProviderP", "textFields"]
+- !private ["So28XCUIElementTypeQueryProviderP", "typeText"]
+- ["So23XCUIScreenshotProvidingP", "alerts"]
+- ["So23XCUIScreenshotProvidingP", "buttons"]
+- ["So23XCUIScreenshotProvidingP", "collectionViews"]
+- !private ["So23XCUIScreenshotProvidingP", "elementType"]
+- ["So23XCUIScreenshotProvidingP", "init"]
+- ["So23XCUIScreenshotProvidingP", "secureTextFields"]
+- ["So23XCUIScreenshotProvidingP", "staticTexts"]
+- ["So23XCUIScreenshotProvidingP", "tables"]
+- !private ["So23XCUIScreenshotProvidingP", "tap"]
+- ["So23XCUIScreenshotProvidingP", "textFields"]
+- !private ["So23XCUIScreenshotProvidingP", "typeText"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "alerts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "buttons"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cells"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "collectionViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "elementType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "secureTextFields"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "staticTexts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tables"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typeText"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "16FunChatikUITests10BaseScreenC"
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So11XCUIElementC11ElementTypeO"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s16RawRepresentableP"
+- "So15XCUIApplicationC"
+- "So11XCUIElementC"
+- "So21XCUIElementAttributesP"
+- "So16XCUIElementQueryC"
+- "So28XCUIElementTypeQueryProviderP"
+- "So23XCUIScreenshotProvidingP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f658bf3db8d7c25c6800d17b28baaa1a"

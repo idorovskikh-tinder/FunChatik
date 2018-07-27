@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "613e787cf3c309b3673af5d7acfb2ff1"
+build_time: [1532663436, 488998000]
+inputs:
+  "/Users/Natalia/FunChatik/Pods/Starscream/Sources/Compression.swift": [1532135659, 0]
+  "/Users/Natalia/FunChatik/Pods/Starscream/Sources/SSLSecurity.swift": [1532135659, 0]
+  "/Users/Natalia/FunChatik/Pods/Starscream/Sources/WebSocket.swift": [1532135659, 0]

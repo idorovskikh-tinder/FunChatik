@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='FunChatikUITests.xctest' tests='10' failures='2'>
+  <testsuite name='FunChatikUITests.ChannelsTests' tests='3' failures='0'>
+    <testcase classname='FunChatikUITests.ChannelsTests' name='testCreateChannelWithLogin' time='24.998'/>
+    <testcase classname='FunChatikUITests.ChannelsTests' name='testCreateChannelWithoutLogin' time='10.420'/>
+    <testcase classname='FunChatikUITests.ChannelsTests' name='testSendMessage' time='17.566'/>
+  </testsuite>
+  <testsuite name='FunChatikUITests.CreateUser' tests='3' failures='2'>
+    <testcase classname='FunChatikUITests.CreateUser' name='testAvatarsScreen' time='16.706'/>
+    <testcase classname='FunChatikUITests.CreateUser' name='testCreateUserWithAvatar'>
+      <failure message='No matches found for Find: Elements matching predicate &apos;&quot;chooseBGColor&quot; IN identifiers&apos; from input {('>BaseScreen.swift:29</failure>
+    </testcase>
+    <testcase classname='FunChatikUITests.CreateUser' name='testCreateUserWithoutAvatar'>
+      <failure message='Failed to scroll to visible (by AX action) Button, 0x60c0001868d0, traits: 8589934593, identifier: &apos;createAccountBtn&apos;, label: &apos;Create Account&apos;, error: Error -25204 performing AXAction 2003 on element &lt;XCAccessibilityElement: 0x7ffa2e325d60&gt; pid: 26198, elementOrHash.elementID: 140519171896016.56'>BaseScreen.swift:29</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='FunChatikUITests.LoginUser' tests='4' failures='0'>
+    <testcase classname='FunChatikUITests.LoginUser' name='testCheckProfile' time='17.376'/>
+    <testcase classname='FunChatikUITests.LoginUser' name='testLoginExistingUser' time='14.356'/>
+    <testcase classname='FunChatikUITests.LoginUser' name='testLoginUnregisterUser' time='14.286'/>
+    <testcase classname='FunChatikUITests.LoginUser' name='testLogout' time='21.218'/>
+  </testsuite>
+</testsuites>
