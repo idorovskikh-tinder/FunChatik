@@ -20,6 +20,14 @@ class LoginVC: UIViewController {
         setUpView()
     }
 
+    func createAlert(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
     
     @IBAction func loginPressed(_ sender: Any) {
         spinner.isHidden = false
@@ -35,20 +43,19 @@ class LoginVC: UIViewController {
                         NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
                         self.spinner.isHidden = true
                         self.spinner.stopAnimating()
-                        self.dismiss(animated: true, completion: nil)
-                    } //else {
-//                        
-//                        self.spinner.isHidden = true
-//                        self.spinner.stopAnimating()
-//                        
-//                        let alert = UIAlertController(title: "Failed", message: "This user doesn't exist", preferredStyle: .alert)
-//                        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-//                        self.present(alert, animated: true)
-//                        let logoutUser = UserDataService()
-//                        logoutUser.logoutUser()
-//                        self.dismiss(animated: true, completion: nil)
-//                    }
+                        self.createAlert(title: "Success!", message: "Welcome")
+                    }
                 })
+            }else {
+                
+                self.spinner.isHidden = true
+                self.spinner.stopAnimating()
+                
+                self.createAlert(title: "Failed!", message: "User doesn't exist")
+                
+                let logoutUser = UserDataService()
+                logoutUser.logoutUser()
+                
             }
         }
     }

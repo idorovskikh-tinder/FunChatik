@@ -16,6 +16,7 @@ class BaseScreen {
     static let secureTextFields = app.secureTextFields
     static let staticTexts = app.staticTexts
     static let collectionViews = app.collectionViews
+    static let alerts = app.alerts
     
 
     let globalTimeout = 10.0

@@ -45,12 +45,24 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         setupUserInfo()
     }
     
+    func createAlertFailedAddChannel(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "GOT IT", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+            //self.performSegue(withIdentifier: UNWIND, sender: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     //return screen AddChannel
     @IBAction func addChannelPressed(_ sender: Any) {
         if AuthService.instance.isLoggedIn { //check if user is logged in to set him his channels
             let addChannel = AddChannelVC()
             addChannel.modalPresentationStyle = .custom
             present(addChannel, animated: true, completion: nil)
+        }
+        else {
+            createAlertFailedAddChannel(title: "Failed!", message: "Please login")
         }
     }
     

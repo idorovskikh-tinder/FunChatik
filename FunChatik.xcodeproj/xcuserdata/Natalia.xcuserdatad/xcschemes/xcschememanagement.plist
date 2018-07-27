@@ -9,6 +9,24 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Regression.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E108E29020EC5B65000ED27F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1FD748F2102CB6B00031A05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

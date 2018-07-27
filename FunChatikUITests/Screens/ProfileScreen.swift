@@ -34,5 +34,4 @@ class ProfileScreen: BaseScreen {
     func tapLogout() {
         tap(element: logoutBtn)
     }
-    
 }

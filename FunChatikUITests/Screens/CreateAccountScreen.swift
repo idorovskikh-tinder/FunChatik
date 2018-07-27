@@ -15,6 +15,8 @@ class CreateAccountScreen: BaseScreen {
     let chooseAvatar = buttons["chooseAvatarBtn"]
     let chooseBGColor = buttons["chooseBGColor"]
     let createAccountBtn = buttons["createAccountBtn"]
+    let successAlert = alerts["Successfuly created!"]
+    let okBtn = buttons["Wooooow"]
     
     required init() {
         super .init()
@@ -42,13 +44,19 @@ class CreateAccountScreen: BaseScreen {
         return ChooseAvatarScreen()
     }
     
-    func tapCreateAccountBtn() -> ChannelScreen {
+    func tapCreateAccountBtn() {
         tap(element: createAccountBtn)
-        return ChannelScreen()
     }
     
     func tapChooseBGColor() {
         tap(element: chooseBGColor)
     }
     
+    func tapOkBtn() {
+        tap(element: okBtn)
+    }
+    
+    func alertSuccessExists() -> Bool {
+        return successAlert.waitForExistence(timeout: globalTimeout)
+    }
 }

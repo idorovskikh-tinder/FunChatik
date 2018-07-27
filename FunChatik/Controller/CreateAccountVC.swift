@@ -37,6 +37,15 @@ class CreateAccountVC: UIViewController {
         }
     }
     
+    func createAlertAddAccount(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Wooooow", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+            self.performSegue(withIdentifier: UNWIND, sender: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     //pressing this button we send data through three functions in AuthService class (loginUser, createUser, addUser)
     @IBAction func createAccountPressed(_ sender: Any) {
         //show rounded load sign untill account is creating
@@ -55,7 +64,7 @@ class CreateAccountVC: UIViewController {
                             if success {
                                 self.spinner.isHidden = true
                                 self.spinner.stopAnimating()
-                                self.performSegue(withIdentifier: UNWIND, sender: nil)
+                                self.createAlertAddAccount(title: "Successfuly created!", message: "Welcome")
                                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
                             }
                         })

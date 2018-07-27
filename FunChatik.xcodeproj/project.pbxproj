@@ -42,11 +42,13 @@
 		E1D6DEB020F956400080607B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEAF20F956400080607B /* CircleImage.swift */; };
 		E1D6DEB320F976A30080607B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DEB120F976A30080607B /* ProfileVC.swift */; };
 		E1D6DEB420F976A30080607B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D6DEB220F976A30080607B /* ProfileVC.xib */; };
+		E1DA3E412109C4CE0036ED45 /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA3E402109C4CE0036ED45 /* CreateUser.swift */; };
+		E1DA3E432109C53A0036ED45 /* ChannelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA3E422109C53A0036ED45 /* ChannelsTests.swift */; };
 		E1DB54E820FC5CF600A54CD2 /* MessegeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */; };
 		E1DB54EA20FC5D6B00A54CD2 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54E920FC5D6B00A54CD2 /* Channel.swift */; };
 		E1DB54EC20FC6C4A00A54CD2 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */; };
 		E1F49F1C2102E74D00B18543 /* CreateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F49F1B2102E74D00B18543 /* CreateData.swift */; };
-		E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */; };
+		E1FD74932102CB6B00031A05 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD74922102CB6B00031A05 /* LoginUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,12 +105,14 @@
 		E1D6DEAF20F956400080607B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E1D6DEB120F976A30080607B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		E1D6DEB220F976A30080607B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		E1DA3E402109C4CE0036ED45 /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
+		E1DA3E422109C53A0036ED45 /* ChannelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTests.swift; sourceTree = "<group>"; };
 		E1DB54E720FC5CF600A54CD2 /* MessegeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegeService.swift; sourceTree = "<group>"; };
 		E1DB54E920FC5D6B00A54CD2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		E1F49F1B2102E74D00B18543 /* CreateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateData.swift; sourceTree = "<group>"; };
 		E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChatikUITests.swift; sourceTree = "<group>"; };
+		E1FD74922102CB6B00031A05 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
 		E1FD74942102CB6B00031A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
 		FBEC78CD96E828D776E08A20 /* Pods-FunChatikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatikUITests/Pods-FunChatikUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -250,7 +254,9 @@
 			isa = PBXGroup;
 			children = (
 				E1103D952102CFB000433C1E /* BaseTest.swift */,
-				E1FD74922102CB6B00031A05 /* FunChatikUITests.swift */,
+				E1FD74922102CB6B00031A05 /* LoginUser.swift */,
+				E1DA3E402109C4CE0036ED45 /* CreateUser.swift */,
+				E1DA3E422109C53A0036ED45 /* ChannelsTests.swift */,
 			);
 			path = AllTests;
 			sourceTree = "<group>";
@@ -498,10 +504,12 @@
 				E1103DA62102D06F00433C1E /* ChannelScreen.swift in Sources */,
 				E1F49F1C2102E74D00B18543 /* CreateData.swift in Sources */,
 				E1103DA22102D06F00433C1E /* BaseScreen.swift in Sources */,
-				E1FD74932102CB6B00031A05 /* FunChatikUITests.swift in Sources */,
+				E1FD74932102CB6B00031A05 /* LoginUser.swift in Sources */,
 				E1103DA02102D06F00433C1E /* ChooseAvatarScreen.swift in Sources */,
 				E1103DA42102D06F00433C1E /* CreateAccountScreen.swift in Sources */,
 				E1103DA12102D06F00433C1E /* CreateChannelScreen.swift in Sources */,
+				E1DA3E432109C53A0036ED45 /* ChannelsTests.swift in Sources */,
+				E1DA3E412109C4CE0036ED45 /* CreateUser.swift in Sources */,
 				E1103DA32102D06F00433C1E /* ChatScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

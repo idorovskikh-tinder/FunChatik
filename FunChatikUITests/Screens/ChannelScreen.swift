@@ -13,6 +13,9 @@ class ChannelScreen: BaseScreen {
     let addChannel = buttons["addChannelButton"]
     //let channel = staticTexts
     let loginBtn = buttons["loginButton"]
+
+    let failedAlert = alerts["Failed!"]
+    let okBtn = buttons["GOT IT"]
     
     required init() {
         super .init()
@@ -27,13 +30,19 @@ class ChannelScreen: BaseScreen {
         tap(element: loginBtn)
     }
     
-    func tapAddChannel() -> CreateChannelScreen {
+    func tapAddChannel() {
         tap(element: addChannel)
-        return CreateChannelScreen()
     }
     
     func tapChannelName(name: XCUIElement) {
         tap(element: name)
     }
     
+    func tapOkBtn() {
+        tap(element: okBtn)
+    }
+       
+    func alertFailed() -> Bool {
+        return failedAlert.waitForExistence(timeout: globalTimeout)
+    }
 }

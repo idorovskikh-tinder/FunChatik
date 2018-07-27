@@ -21,12 +21,22 @@ class AddChannelVC: UIViewController {
         setupView()
     }
     
+    func createAlertAddChannel(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Yeeeey", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func createChannelPressed(_ sender: Any) {
         guard let channelName = nameTxt.text , nameTxt.text != "" else { return }
         guard let channelDesc = chanDesc.text else { return }
         SocketService.instance.addChannel(channelName: channelName, channelDescription: channelDesc) { (success) in
             if success {
-                self.dismiss(animated: true, completion: nil)
+                self.createAlertAddChannel(title: "Congratulations!", message: "Your new channel was created!")
+                //self.dismiss(animated: true, completion: nil)
             }
         }
     }

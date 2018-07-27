@@ -81,11 +81,17 @@ class AuthService {
             if response.result.error == nil {
                 guard let data = response.data else { return }
                 let json = try! JSON(data: data)
-                self.userEmail = json["user"].stringValue
-                self.authToken = json["token"].stringValue
+                if json["user"].exists() {
+                    self.userEmail = json["user"].stringValue
+                    self.authToken = json["token"].stringValue
+                    self.isLoggedIn = true
+                    completion(true)
+                    
+                } else {
+                    self.isLoggedIn = false
+                    completion(false)                }
                 
-                self.isLoggedIn = true
-                completion(true)
+                
             } else {
                 completion(false)
                 debugPrint(response.result.error as Any)

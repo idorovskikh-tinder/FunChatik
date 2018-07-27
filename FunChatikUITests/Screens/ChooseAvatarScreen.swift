@@ -30,7 +30,8 @@ class ChooseAvatarScreen: BaseScreen {
         tap(element: lightAvatars)
     }
     
-    func tapBackBtn() {
+    func tapBackBtn() -> CreateAccountScreen {
         tap(element: backBtn)
+        return CreateAccountScreen()
     }
 }

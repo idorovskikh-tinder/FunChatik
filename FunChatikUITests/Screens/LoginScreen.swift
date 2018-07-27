@@ -16,6 +16,9 @@ class LoginScreen: BaseScreen {
     let signUpBtn = buttons["signUpButton"]
     let lable = staticTexts["funChatikLblLoginScrren"]
     let closeBtn = buttons["closeButtonLoginScreen"]
+    let successAlert = alerts["Success!"]
+    let failedAlert = alerts["Failed!"]
+    let okBtn = buttons["OK"]
     
     
     required init() {
@@ -35,9 +38,8 @@ class LoginScreen: BaseScreen {
         typeText(element: password, text: passwordText)
     }
     
-    func tapLoginBtn() -> ChannelScreen {
+    func tapLoginBtn() {
         tap(element: loginBtn)
-        return ChannelScreen()
     }
     
     func tapSignUp() -> CreateAccountScreen {
@@ -51,6 +53,18 @@ class LoginScreen: BaseScreen {
     
     func tapCloseBtn() {
         tap(element: closeBtn)
+    }
+    
+    func tapOkBtn() {
+        tap(element: okBtn)
+    }
+        
+    func alertSuccessExists() -> Bool {
+        return successAlert.waitForExistence(timeout: globalTimeout)
+    }
+    
+    func alertFailed() -> Bool {
+        return failedAlert.waitForExistence(timeout: globalTimeout)
     }
     
 }
