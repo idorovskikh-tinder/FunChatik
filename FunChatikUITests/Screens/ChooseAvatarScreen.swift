@@ -12,6 +12,7 @@ class ChooseAvatarScreen: BaseScreen {
     let backBtn = buttons["backBtnAvatarScreen"]
     let lightAvatars = buttons["Light"]
     let darkAvatars = buttons["Dark"]
+    let choosenImg = BaseScreen.collectionViews.children(matching: .cell).element(boundBy: 1).images["avatarImage"]
     
     required init() {
         super .init()
@@ -20,6 +21,16 @@ class ChooseAvatarScreen: BaseScreen {
     
     func visible() {
         XCTAssertTrue(lightAvatars.waitForExistence(timeout: globalTimeout), "ChooseAvatar Screen is not presented")
+    }
+    
+    func tapAvatar() -> CreateAccountScreen{
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).otherElements.containing(.image, identifier:"avatarImage").element.tap()
+        return CreateAccountScreen()
+    }
+    
+    func tapImg() -> CreateAccountScreen {
+        tap(element: choosenImg)
+        return CreateAccountScreen()
     }
     
     func tapDarkAvatarsChoice() {

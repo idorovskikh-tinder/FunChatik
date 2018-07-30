@@ -53,12 +53,25 @@ class CreateUser: BaseTest {
             createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
             createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
             createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
-            createAccountScreen.tapChooseBGColor()
-            createAccountScreen.tapChooseBGColor()
-            createAccountScreen.tapCreateAccountLbl()
-            createAccountScreen.tapCreateAccountBtn()
-            XCTAssertTrue(createAccountScreen.alertSuccessExists())
-            createAccountScreen.tapOkBtn()
+            
+            let avatarsScreen = createAccountScreen.tapChooseAvatar()
+            let createAccountScreen2 = avatarsScreen.tapAvatar()
+            
+            createAccountScreen2.tapChooseBGColor()
+            createAccountScreen2.tapChooseBGColor()
+            createAccountScreen2.tapCreateAccountLbl()
+            createAccountScreen2.tapCreateAccountBtn()
+            XCTAssertTrue(createAccountScreen2.alertSuccessExists())
+            createAccountScreen2.tapOkBtn()
+            
+            
+
+//            collectionViewsQuery.children(matching: .cell).element(boundBy: 0).otherElements.containing(.image, identifier:"avatarImage").element.tap()
+//            chooseavatarbtnButton.tap()
+//            collectionViewsQuery.children(matching: .cell).element(boundBy: 1).otherElements.containing(.image, identifier:"avatarImage").element.tap()
+//            app/*@START_MENU_TOKEN@*/.buttons["closeButtonCreateAccount"]/*[[".buttons[\"close\"]",".buttons[\"closeButtonCreateAccount\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+//
+            
         }
     }
     

@@ -17,7 +17,8 @@ class BaseScreen {
     static let staticTexts = app.staticTexts
     static let collectionViews = app.collectionViews
     static let alerts = app.alerts
-    
+    //static let collectionViews = app.collectionViews
+    static let images = app.images
 
     let globalTimeout = 10.0
     
