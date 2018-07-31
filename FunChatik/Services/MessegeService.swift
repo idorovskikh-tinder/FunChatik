@@ -82,6 +82,5 @@ class MessageService {
     //delete channels when user loggrd out
     func clearChannels() {
         channels.removeAll()
-    }
-    
+    }    
 }

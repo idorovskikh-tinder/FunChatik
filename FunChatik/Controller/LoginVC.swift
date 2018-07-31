@@ -54,8 +54,7 @@ class LoginVC: UIViewController {
                 self.createAlert(title: "Failed!", message: "User doesn't exist")
                 
                 let logoutUser = UserDataService()
-                logoutUser.logoutUser()
-                
+                logoutUser.logoutUser()                
             }
         }
     }

@@ -133,6 +133,5 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         NotificationCenter.default.post(name: NOTIF_CHANNEL_SELECTED, object: nil)
         self.revealViewController().revealToggle(animated: true)
-    }
-    
+    }    
 }

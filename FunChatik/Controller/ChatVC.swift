@@ -162,8 +162,7 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 }
             })
         }
-    }
-    
+    }    
     
     //get channels if we have it, if don't return no channels yet
     func onLoginGetMessages() {

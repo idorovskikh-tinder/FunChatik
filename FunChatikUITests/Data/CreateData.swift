@@ -12,6 +12,5 @@ class CreateData {
     
     static let newUniqueUser = "___" + String(describing: Date())
     static let existUser = "123"
-    static let newChannel = "???" + String(describing: Date())
-    
+    static let newChannel = "???" + String(describing: Date())    
 }
