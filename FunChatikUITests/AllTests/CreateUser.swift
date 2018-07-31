@@ -48,30 +48,24 @@ class CreateUser: BaseTest {
             let loginScreen = LoginScreen()
             loginScreen.tapSignUp()
         }
-        XCTContext.runActivity(named: "create new user") { activity in
+        XCTContext.runActivity(named: "type fields") { activity in
             let createAccountScreen = CreateAccountScreen()
             createAccountScreen.typeUserName(usernameTxt: CreateData.newUniqueUser)
             createAccountScreen.typeEmail(emailTxt: CreateData.newUniqueUser)
             createAccountScreen.typePassword(passwordTxt: CreateData.newUniqueUser)
-            
-            let avatarsScreen = createAccountScreen.tapChooseAvatar()
-            let createAccountScreen2 = avatarsScreen.tapAvatar()
-            
-            createAccountScreen2.tapChooseBGColor()
+            createAccountScreen.tapChooseAvatar()
+        }
+         XCTContext.runActivity(named: "choose avatar") { activity in
+            let avatarsScreen = ChooseAvatarScreen()
+            _ = avatarsScreen.tapAvatar()
+        }
+        XCTContext.runActivity(named: "create account") { activity in
+            let createAccountScreen2 = CreateAccountScreen()
             createAccountScreen2.tapChooseBGColor()
             createAccountScreen2.tapCreateAccountLbl()
             createAccountScreen2.tapCreateAccountBtn()
             XCTAssertTrue(createAccountScreen2.alertSuccessExists())
-            createAccountScreen2.tapOkBtn()
-            
-            
-
-//            collectionViewsQuery.children(matching: .cell).element(boundBy: 0).otherElements.containing(.image, identifier:"avatarImage").element.tap()
-//            chooseavatarbtnButton.tap()
-//            collectionViewsQuery.children(matching: .cell).element(boundBy: 1).otherElements.containing(.image, identifier:"avatarImage").element.tap()
-//            app/*@START_MENU_TOKEN@*/.buttons["closeButtonCreateAccount"]/*[[".buttons[\"close\"]",".buttons[\"closeButtonCreateAccount\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-//
-            
+            createAccountScreen2.tapOkBtn()            
         }
     }
     

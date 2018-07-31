@@ -20,7 +20,7 @@ class BaseScreen {
     //static let collectionViews = app.collectionViews
     static let images = app.images
 
-    let globalTimeout = 10.0
+    let globalTimeout = 20.0
     
     required init() {
         
