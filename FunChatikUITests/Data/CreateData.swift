@@ -10,7 +10,7 @@ import Foundation
 
 class CreateData {
     
-    static let newUniqueUser = "___" + String(describing: Date())
+    static let newUniqueUser = "???" + String(describing: Date())
     static let existUser = "123"
     static let newChannel = "???" + String(describing: Date())    
 }
