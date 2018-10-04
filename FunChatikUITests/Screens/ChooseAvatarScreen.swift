@@ -9,10 +9,10 @@
 import XCTest
 
 class ChooseAvatarScreen: BaseScreen {
-    let backBtn = buttons["backBtnAvatarScreen"]
-    let lightAvatars = buttons["Light"]
-    let darkAvatars = buttons["Dark"]
-    let choosenImg = BaseScreen.collectionViews.children(matching: .cell).element(boundBy: 1).images["avatarImage"]
+    private let backBtn = buttons["backBtnAvatarScreen"]
+    private let lightAvatars = buttons["Light"]
+    private let darkAvatars = buttons["Dark"]
+    private let choosenImg = BaseScreen.collectionViews.children(matching: .cell).element(boundBy: 1).images["avatarImage"]
     
     required init() {
         super .init()

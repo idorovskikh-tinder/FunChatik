@@ -9,15 +9,15 @@
 import XCTest
 
 class CreateAccountScreen: BaseScreen {
-    let userName = textFields["userNameCreateAccount"]
-    let email = textFields["emailCreateAccount"]
-    let paswword = secureTextFields["passwordCreateAccount"]
-    let chooseAvatar = buttons["chooseAvatarBtn"]
-    let chooseBGColor = buttons["chosseBGColorBtn"]
-    let createAccountBtn = buttons["createAccountBtn"]
-    let createAccauntLbl = staticTexts["createAccountLbl"]
-    let successAlert = alerts["Successfuly created!"]
-    let okBtn = buttons["Wooooow"]
+    private let userName = textFields["userNameCreateAccount"]
+    private let email = textFields["emailCreateAccount"]
+    private let paswword = secureTextFields["passwordCreateAccount"]
+    private let chooseAvatar = buttons["chooseAvatarBtn"]
+    private let chooseBGColor = buttons["chosseBGColorBtn"]
+    private let createAccountBtn = buttons["createAccountBtn"]
+    private let createAccauntLbl = staticTexts["createAccountLbl"]
+    private let successAlert = alerts["Successfuly created!"]
+    private let okBtn = buttons["Wooooow"]
     
     required init() {
         super .init()

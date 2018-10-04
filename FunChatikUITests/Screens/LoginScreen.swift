@@ -10,15 +10,15 @@ import XCTest
 
 class LoginScreen: BaseScreen {
     
-    let email = textFields["emailTextField"]
-    let password = secureTextFields["passwordTextField"]
-    let loginBtn = buttons["loginButtonLoginScreen"]
-    let signUpBtn = buttons["signUpButton"]
-    let lable = staticTexts["funChatikLblLoginScrren"]
-    let closeBtn = buttons["closeButtonLoginScreen"]
-    let successAlert = alerts["Success!"]
-    let failedAlert = alerts["Failed!"]
-    let okBtn = buttons["OK"]
+    private let email = textFields["emailTextField"]
+    private let password = secureTextFields["passwordTextField"]
+    private let loginBtn = buttons["loginButtonLoginScreen"]
+    private let signUpBtn = buttons["signUpButton"]
+    private let lable = staticTexts["funChatikLblLoginScrren"]
+    private let closeBtn = buttons["closeButtonLoginScreen"]
+    private let successAlert = alerts["Success!"]
+    private let failedAlert = alerts["Failed!"]
+    private let okBtn = buttons["OK"]
     
     
     required init() {

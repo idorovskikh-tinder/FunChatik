@@ -10,11 +10,11 @@ import XCTest
 
 class ChatScreen: BaseScreen {
     
-    let menuButton = buttons["menuBurgerButton"]
-    let messegeField = textFields["messageSendChatField"]
-    let sendMessageBtn = buttons["sendMessageBtn"]
+    private let menuButton = buttons["menuBurgerButton"]
+    private let messegeField = textFields["messageSendChatField"]
+    private let sendMessageBtn = buttons["sendMessageBtn"]
     
-    let testLogoutBtn = buttons["testLogoutBtn"]
+    private let testLogoutBtn = buttons["testLogoutBtn"]
     
     required init() {
         super .init()

@@ -10,9 +10,9 @@ import XCTest
 
 class ProfileScreen: BaseScreen {
     
-    let closeBtn = buttons["closeProfileButton"]
-    let profileLbl = staticTexts["yourProfileLable"]
-    let logoutBtn = buttons["logoutProfileButton"]
+    private let closeBtn = buttons["closeProfileButton"]
+    private let profileLbl = staticTexts["yourProfileLable"]
+    private let logoutBtn = buttons["logoutProfileButton"]
     
     required init() {
         super .init()

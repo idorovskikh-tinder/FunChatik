@@ -10,11 +10,11 @@ import XCTest
 
 class CreateChannelScreen: BaseScreen {
     
-    let channelName = textFields["channelNameTextField"]
-    let channelDesc = textFields["descriptionChannel"]
-    let createChannelBtn = buttons["createChannelBtn"]
-    let successfulAlert = alerts["Congratulations!"]
-    let okBtn = buttons["Yeeeey"]
+    private let channelName = textFields["channelNameTextField"]
+    private let channelDesc = textFields["descriptionChannel"]
+    private let createChannelBtn = buttons["createChannelBtn"]
+    private let successfulAlert = alerts["Congratulations!"]
+    private let okBtn = buttons["Yeeeey"]
     
     required init() {
         super .init()
