@@ -10,12 +10,12 @@ import XCTest
 
 class ChannelScreen: BaseScreen {
     
-    let addChannel = buttons["addChannelButton"]
+    private let addChannel = buttons["addChannelButton"]
     //let channel = staticTexts
-    let loginBtn = buttons["loginButton"]
+    private let loginBtn = buttons["loginButton"]
 
-    let failedAlert = alerts["Failed!"]
-    let okBtn = buttons["GOT IT"]
+    private let failedAlert = alerts["Failed!"]
+    private let okBtn = buttons["GOT IT"]
     
     required init() {
         super .init()
