@@ -66,7 +66,7 @@
 		3CAA492BDAE6AF8BDCB2288A /* Pods_FunChatik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChatik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		669BB67C7DB43B03BC29CB05 /* Pods-FunChatik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.debug.xcconfig"; sourceTree = "<group>"; };
 		7FF408A5A75B15800A9A7E45 /* Pods_FunChatikUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChatikUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E108E29120EC5B65000ED27F /* FunChatik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChatik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E108E29120EC5B65000ED27F /* FunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108E29420EC5B65000ED27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E108E29920EC5B65000ED27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E108E29B20EC5B65000ED27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		E1DB54E920FC5D6B00A54CD2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		E1DB54EB20FC6C4A00A54CD2 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		E1F49F1B2102E74D00B18543 /* CreateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateData.swift; sourceTree = "<group>"; };
-		E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FD74902102CB6B00031A05 /* FunChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FD74922102CB6B00031A05 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
 		E1FD74942102CB6B00031A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AA18109C33CBCB33579F36 /* Pods-FunChatik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChatik.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunChatik/Pods-FunChatik.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,8 +162,8 @@
 		E108E29220EC5B65000ED27F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E108E29120EC5B65000ED27F /* FunChatik.app */,
-				E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */,
+				E108E29120EC5B65000ED27F /* FunChat.app */,
+				E1FD74902102CB6B00031A05 /* FunChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,9 +320,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E108E29020EC5B65000ED27F /* FunChatik */ = {
+		E108E29020EC5B65000ED27F /* FunChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E108E2AE20EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatik" */;
+			buildConfigurationList = E108E2AE20EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChat" */;
 			buildPhases = (
 				3B7A2750BE6097457B28C15C /* [CP] Check Pods Manifest.lock */,
 				E108E28D20EC5B65000ED27F /* Sources */,
@@ -334,14 +334,14 @@
 			);
 			dependencies = (
 			);
-			name = FunChatik;
+			name = FunChat;
 			productName = FunChatik;
-			productReference = E108E29120EC5B65000ED27F /* FunChatik.app */;
+			productReference = E108E29120EC5B65000ED27F /* FunChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1FD748F2102CB6B00031A05 /* FunChatikUITests */ = {
+		E1FD748F2102CB6B00031A05 /* FunChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatikUITests" */;
+			buildConfigurationList = E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatUITests" */;
 			buildPhases = (
 				E1FD748C2102CB6B00031A05 /* Sources */,
 				E1FD748D2102CB6B00031A05 /* Frameworks */,
@@ -352,9 +352,9 @@
 			dependencies = (
 				E1FD74962102CB6B00031A05 /* PBXTargetDependency */,
 			);
-			name = FunChatikUITests;
+			name = FunChatUITests;
 			productName = FunChatikUITests;
-			productReference = E1FD74902102CB6B00031A05 /* FunChatikUITests.xctest */;
+			productReference = E1FD74902102CB6B00031A05 /* FunChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -377,7 +377,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E108E28C20EC5B65000ED27F /* Build configuration list for PBXProject "FunChatik" */;
+			buildConfigurationList = E108E28C20EC5B65000ED27F /* Build configuration list for PBXProject "FunChat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -390,8 +390,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E108E29020EC5B65000ED27F /* FunChatik */,
-				E1FD748F2102CB6B00031A05 /* FunChatikUITests */,
+				E108E29020EC5B65000ED27F /* FunChat */,
+				E1FD748F2102CB6B00031A05 /* FunChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -519,7 +519,7 @@
 /* Begin PBXTargetDependency section */
 		E1FD74962102CB6B00031A05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E108E29020EC5B65000ED27F /* FunChatik */;
+			target = E108E29020EC5B65000ED27F /* FunChat */;
 			targetProxy = E1FD74952102CB6B00031A05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -738,7 +738,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E108E28C20EC5B65000ED27F /* Build configuration list for PBXProject "FunChatik" */ = {
+		E108E28C20EC5B65000ED27F /* Build configuration list for PBXProject "FunChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E108E2AC20EC5B66000ED27F /* Debug */,
@@ -747,7 +747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E108E2AE20EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChatik" */ = {
+		E108E2AE20EC5B66000ED27F /* Build configuration list for PBXNativeTarget "FunChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E108E2AF20EC5B66000ED27F /* Debug */,
@@ -756,7 +756,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatikUITests" */ = {
+		E1FD74972102CB6B00031A05 /* Build configuration list for PBXNativeTarget "FunChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1FD74982102CB6B00031A05 /* Debug */,

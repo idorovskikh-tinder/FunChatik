@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E108E29020EC5B65000ED27F"
-               BuildableName = "FunChatik.app"
-               BlueprintName = "FunChatik"
-               ReferencedContainer = "container:FunChatik.xcodeproj">
+               BuildableName = "FunChat.app"
+               BlueprintName = "FunChat"
+               ReferencedContainer = "container:FunChat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E1FD748F2102CB6B00031A05"
+               BuildableName = "FunChatUITests.xctest"
+               BlueprintName = "FunChatUITests"
+               ReferencedContainer = "container:FunChat.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E108E29020EC5B65000ED27F"
-            BuildableName = "FunChatik.app"
-            BlueprintName = "FunChatik"
-            ReferencedContainer = "container:FunChatik.xcodeproj">
+            BuildableName = "FunChat.app"
+            BlueprintName = "FunChat"
+            ReferencedContainer = "container:FunChat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E108E29020EC5B65000ED27F"
-            BuildableName = "FunChatik.app"
-            BlueprintName = "FunChatik"
-            ReferencedContainer = "container:FunChatik.xcodeproj">
+            BuildableName = "FunChat.app"
+            BlueprintName = "FunChat"
+            ReferencedContainer = "container:FunChat.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -69,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E108E29020EC5B65000ED27F"
-            BuildableName = "FunChatik.app"
-            BlueprintName = "FunChatik"
-            ReferencedContainer = "container:FunChatik.xcodeproj">
+            BuildableName = "FunChat.app"
+            BlueprintName = "FunChat"
+            ReferencedContainer = "container:FunChat.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
