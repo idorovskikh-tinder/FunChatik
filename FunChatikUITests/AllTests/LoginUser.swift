@@ -24,8 +24,8 @@ class LoginUser: BaseTest {
             loginScreen.typeEmail(emailText: CreateData.existUser)
             loginScreen.typePassword(passwordText: CreateData.existUser)
             loginScreen.tapLoginBtn()
-            XCTAssertTrue(loginScreen.alertSuccessExists())
-            loginScreen.tapOkBtn()
+//            XCTAssertTrue(loginScreen.alertSuccessExists())
+//            loginScreen.tapOkBtn()
         }        
     }
     
